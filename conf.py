@@ -175,4 +175,11 @@ epub_copyright = "copyright"
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
+# Markdown
+from recommonmark.parser import CommonMarkParser
 
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+
+source_suffix = ['.rst', '.md']
