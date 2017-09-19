@@ -158,9 +158,9 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = project
-epub_author = author
-epub_publisher = author
+epub_title = umi Tutorial
+epub_author = Samuel Letellier-Duchesne
+epub_publisher = Polytechnique Montreal
 epub_copyright = copyright
 
 # The unique identifier of the text. This can be a ISBN number
