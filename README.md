@@ -1,2 +1,2 @@
 # umitutorial
-This is an attempt at updating the umi tutorials
+This is an attempt at updating the umi documentation
