@@ -4,7 +4,7 @@
 
 This is the development site for the umi user guide.
 
-Instructions for developers are available on the [wiki].
+Instructions for developers are available on the [wiki](https://github.com/MITSustainableDesignLab/umidocs/wiki).
 
 ## Main project location
 
