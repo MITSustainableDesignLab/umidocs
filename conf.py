@@ -162,7 +162,7 @@ epub_title = "umi Tutorial"
 epub_author = "Samuel Letellier-Duchesne"
 epub_publisher = "Sustainable Design Lab"
 epub_copyright = "copyright"
-epub_cover = ('_static/cover.png', 'epub-cover.html')
+epub_cover = ('_static/cover.png', '')
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
 #
