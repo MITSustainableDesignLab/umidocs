@@ -6,8 +6,10 @@ Umi is a Rhino-based design environment for architects and urban planners intere
 A first public version of Umi was released during a public symposium on Sustainable Urban Design on May 6th 2013 at the Massachusetts Institute of Technology. Version 2.0, which also includes an embodied energy module, was released on November 7th 2014.
 
 .. toctree::
+   :maxdepth: 2
+   :caption: User Documentation
 
    Getting Started <docs/first.md>
-   docs/examples
+   docs/examples/_examples
    Building Templates <docs/archetypes.md>
    Template Details <docs/template-detail.md>
