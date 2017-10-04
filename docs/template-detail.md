@@ -3,6 +3,7 @@ This section will provide details on the template files
 
 ## Materials
 ### Opaque
+
 | Setting | Units |
 | ------- | ----- |
 | Conductivity | W/m-K |
@@ -23,6 +24,12 @@ This section will provide details on the template files
 | Visible Absorptance | |
 
 #### Conductivity
+
+First Header | Second Header | Third Header
+------------ | ------------- | ------------
+Content Cell | Content Cell  | Content Cell
+Content Cell | Content Cell  | Content Cell
+
 #### Cost
 #### Density
 #### Embodied Carbon
