@@ -1,0 +1,397 @@
+﻿body, div, h1, h2, h3, h4, h5, h6, p {
+	widows: 2;
+	orphans: 2;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	page-break-after: avoid;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+table {
+	width:100%;
+}
+img, div {
+	padding: 0;
+	margin: 0;
+}
+div.h100 {
+	text-align: center;
+	height: 97%;
+	max-width: 100%;
+	clear: both;
+}
+img.h100 {
+	height: 100%;
+	max-width: 100%;
+}
+div.w100 {
+	text-align: center;
+	max-height: 100%;
+	width: 100%;
+	clear: both;
+}
+img.w100 {
+	max-height: 100%;
+	width: 100%;
+}
+img.h1em {
+	height: 1em;
+}
+img.letter {
+	height: 1em;
+}
+img.h2em {
+	height: 2em;
+}
+img.h3em {
+	height: 3em;
+}
+img.h4em {
+	height: 4em;
+}
+
+div.w20c {
+	text-align: center;
+	max-height: 100%;
+	margin: .5em 38%;
+	clear: both;
+}
+h1.x01-FM-Ad-Card-Head {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Trade Gothic LT Std Cn"*/
+	font-size:0.917em;
+	margin: 5% 0 0.36em 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x01-FM-Ad-Card-List {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.833em;
+	font-style:italic;
+	margin: 0.4em 0 0 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x01-FM-Copyright-Text {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.667em;
+	margin: 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x01-FM-Copyright-Text-Space {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.667em;
+	margin: 1.12em 0 0 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x01-FM-Dedi-Body {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	font-style:italic;
+	margin: 15% 0 0 0;
+	text-align:center;
+	text-indent:0;
+}
+/*May want to look at the style below*/
+
+p.x01-FM-Epigraph {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	font-style:italic;
+	margin: 0 15%;
+	text-indent:0;
+}
+/*May want to look at the style below*/
+
+p.x01-FM-Epigraph-First {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	font-style:italic;
+	margin: 15% 15% 0 15%;
+	text-indent:0;
+}
+/*May want to look at the style below*/
+
+p.x01-FM-Epigraph-Source-First {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.75em;
+	text-align:right;
+	margin: 0.89em 15% 0 15%;
+	text-indent:-0.89em;
+}
+h1.x01-FM-Head {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Microgramma Com Medium Extended"*/
+	font-size:1.25em;
+	font-weight:bold;
+	margin: 15% 0 10% 0;
+	page-break-after:avoid;
+	text-align:center;
+	text-indent:0;
+}
+h1.x02-Part-Title {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Microgramma Com Medium Extended"*/
+	font-size:1.5em;
+	font-weight:bold;
+	margin: 15% 0 0 0;
+	page-break-after:avoid;
+	text-align:center;
+	text-indent:0;
+}
+/*May want to look at the style below*/
+
+p.x03-CO-Body-Text {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	margin: 10% 0 0 0;
+	text-indent:0;
+}
+h2.x03-Chapter-Number {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Microgramma Com Medium Extended"*/
+	font-size:1.5em;
+	font-weight:bold;
+	margin: 15% 0 10% 0;
+	page-break-after:avoid;
+	text-align:center;
+	text-indent:0;
+}
+p.x04-Body-Text {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	margin: 0;
+	text-indent:1.59em;
+}
+p.x04-Body-Text-FL {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	margin: 0;
+	text-indent:0;
+}
+p.x04-Space-Break-FL {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	margin: 0;
+	text-indent:0;
+}
+p.x04-Space-Break-Orn {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	margin: 1.06em 0;
+	page-break-after:avoid;
+	text-align:center;
+	text-indent:0;
+}
+/*May want to look at the style below*/
+
+p.x06-E-mail-Closing {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*Arial*/
+	font-size:0.667em;
+	margin: 1em 20% 2.37em 10%;
+	text-align:right;
+	text-indent:0;
+}
+p.x06-E-mail-Salutation {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*Arial*/
+	font-size:0.708em;
+	margin: 0.94em 2.59em 0.82em 2.59em;
+	text-indent:0;
+}
+p.x06-E-mail-Text {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*Arial*/
+	font-size:0.708em;
+	margin: 0 2.59em;
+	text-indent:2.12em;
+}
+p.x06-E-mail-Text-First {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*Arial*/
+	font-size:0.708em;
+	margin: 0 2.59em;
+	text-indent:0;
+}
+/*May want to look at the style below*/
+
+p.x06-Letter-Closing {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.833em;
+	font-style:italic;
+	text-align:right;
+	margin: 0.2em 12% 0.6em 10%;
+	text-indent:0;
+}
+p.x06-Letter-Salutation {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.75em;
+	font-style:italic;
+	margin: 0.78em 3em 0 3.6em;
+	text-indent:0;
+}
+p.x06-Letter-Text {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.833em;
+	font-style:italic;
+	margin: 0 3.3em;
+	text-indent:1.8em;
+}
+p.x06-Letter-Text-1P {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.833em;
+	font-style:italic;
+	margin: 0.8em 3.3em;
+	text-indent:0;
+}
+p.x12-Figure-Callout {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:2.5em;
+	margin: .35em 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x12-Figure-Title {
+	/*color:#221e1f;*/
+	font-family: serif; /*Promemoria*/
+	font-size:1.083em;
+	margin: 1.46em 0 .2em 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x12-Figure-Title-2 {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Promemoria Italic"*/
+	font-size:1.083em;
+	margin: 0 0 1.46em 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x12-Trefoil-Logo {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:2.5em;
+	margin: 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x13-BM-About-Au {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.875em;
+	margin: 0 2.29em;
+	text-indent:0;
+}
+h1.x13-BM-About-Au-Head {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.917em;
+	margin: 15% 0 10% 0;
+	text-align:center;
+	text-indent:0;
+}
+p.x13-BM-Ack {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	margin: 0;
+	text-indent:1.59em;
+}
+h1.x13-BM-Ack-Head {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Microgramma Com Medium Extended"*/
+	font-size:1.25em;
+	font-weight:bold;
+	margin: 15% 0 10% 0;
+	page-break-after:avoid;
+	text-align:center;
+	text-indent:0;
+}
+p.x13-BM-Acks-First {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.942em;
+	margin: 0.71em 0 0 0;
+	text-indent:0;
+}
+p.x13-BM-Biblio {
+	/*color:#221e1f;*/
+	font-family: serif; /*"Electra LT Std"*/
+	font-size:0.917em;
+	margin: 0.82em 0 0 0;
+	text-indent:0;
+}
+span._3-CO-1st-Phrase {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Trade Gothic LT Std Bold"*/
+	font-size:0.917em;
+	font-weight:bold;
+}
+span.SUP {
+	font-family: serif; /*"Electra LT Std"*/
+}
+span.SUP-ITAL {
+	font-family: serif; /*"Electra LT Std"*/
+	font-style:italic;
+}
+span.Stickup-Cap {
+	/*color:#221e1f;*/
+	font-family: sans-serif; /*"Trade Gothic LT Std Bold"*/
+	font-size:1.333em;
+	font-weight:bold;
+	line-height:0;
+}
+._idGenDropcap-1 {
+	/*color:#221e1f;*/
+	float:left;
+	font-family: sans-serif; /*"Trade Gothic LT Std Cn"*/
+	font-size:2.937em;
+	font-weight:bold;
+	margin-bottom:-0.45em;
+	margin-right:0.05em;
+	margin-top:-0.45em;
+	line-height:1.5em;
+}
+.x01-FM-Contents-FL {
+font-size:1em;
+margin: 0 0 0 1.5em;
+text-indent:-1.5em;
+}
+.x01-FM-Contents-center {
+text-align:center;
+font-size:1em;
+margin: 0;
+text-indent: 0;
+}
+.x01-FM-Contents-Space {
+font-size:1em;
+margin: 1em 0 0 1.5em;
+text-indent:-1.5em;
+}
