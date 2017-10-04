@@ -50,13 +50,6 @@ Opaque
 ------------
 Conductivity
 ------------
-.. module:: sample
-    :platform: Unix, Windows
-    :synopsis: sample of documented python code
-    
-.. currentmodule:: sample
-.. autofunction:: conf
-
 ----
 Cost
 ----
