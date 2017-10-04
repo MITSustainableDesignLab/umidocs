@@ -7,9 +7,10 @@ A first public version of Umi was released during a public symposium on Sustaina
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: User Documentation
 
    Getting Started <docs/first.md>
    docs/examples/_examples
    Building Templates <docs/archetypes.md>
-   Template Details <docs/template-detail.md>
+   Template Details <docs/template-detail.rst>
