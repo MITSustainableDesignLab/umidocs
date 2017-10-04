@@ -2,7 +2,7 @@
 
 [![Documentation Status](http://readthedocs.org/projects/umidocs/badge/?version=latest)](http://umidocs.readthedocs.io/en/latest/?badge=latest)
 
-*umidocs* is hosted at <umidocs.readthedocs.io>
+*umidocs* is hosted at [umidocs.readthedocs.io](http://umidocs.readthedocs.io)
 
 This repository is the development website for the *umi* user guide. If you wish to contribute to the online documentation head over to the [wiki](https://github.com/MITSustainableDesignLab/umidocs/wiki).
 
