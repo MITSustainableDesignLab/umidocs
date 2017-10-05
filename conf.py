@@ -33,7 +33,6 @@
 extensions = ['sphinx.ext.githubpages',
               'sphinx.ext.doctest',
               'sphinx.ext.todo',
-              'matplotlib.sphinxext.plot_directive',
               'sphinx.ext.imgmath',
               'sphinx.ext.ifconfig']
 
@@ -41,7 +40,6 @@ extensions = ['sphinx.ext.githubpages',
 if 'epub' not in tags:
     extensions.remove('sphinx.ext.imgmath')
     extensions.append('sphinx.ext.mathjax')
-extensions = ['sphinx.ext.githubpages','sphinx.ext.mathjax']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
