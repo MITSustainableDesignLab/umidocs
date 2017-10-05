@@ -12,4 +12,4 @@ A first public version of Umi was released during a public symposium on Sustaina
    Getting Started <docs/first.md>
    docs/examples/_examples
    Building Templates <docs/archetypes.md>
-   Template Details <docs/template-detail.rst>
+   Template Details <docs/template-info/_template-detail.rst>
