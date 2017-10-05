@@ -5,7 +5,9 @@ This section will provide details on the template files
 
 .. toctree::
    :glob:
+   :hidden:
 
+   opaque
    *
 
 ---------
