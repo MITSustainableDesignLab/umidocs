@@ -8,7 +8,9 @@ This section will provide details on the template files
    :hidden:
 
    opaque
-   *
+
+.. sectionauthor::
+   Samuel Letellier-Duchesne <samuel.letellier-duchesne@polymtl.ca>
 
 ---------
 Materials

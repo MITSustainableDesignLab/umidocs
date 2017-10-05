@@ -30,7 +30,17 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.githubpages']
+extensions = ['sphinx.ext.githubpages',
+              'sphinx.ext.doctest',
+              'sphinx.ext.todo',
+              'matplotlib.sphinxext.plot_directive',
+              'sphinx.ext.imgmath',
+              'sphinx.ext.ifconfig']
+
+# As long as we are not generating with the epub tag it is safe to use MathJax.
+if 'epub' not in tags:
+    extensions.remove('sphinx.ext.imgmath')
+    extensions.append('sphinx.ext.mathjax')
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -181,3 +191,9 @@ from recommonmark.parser import CommonMarkParser
 source_parsers = {
     '.md': CommonMarkParser,
 }
+
+if 'epub' in tags:
+    plot_include_source = False
+    plot_html_show_formats = False
+
+plot_formats = ["png", "hires.png", "pdf", "svg"]
