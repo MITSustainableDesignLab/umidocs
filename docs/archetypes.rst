@@ -20,12 +20,11 @@ design energy model generation*\ ”, accessible in the following
 .. figure:: ../_images/TLF0.jpg
    :alt: TLF
 
-   TLF
 
 Opening a TLF file and navigating contents
 ------------------------------------------
 
-You can open the Template Library Editor, from the “Project” umi panel
+You can open the :index:`Template Library Editor`, from the “Project” umi panel
 by clicking the “Edit” button. The application will pop up in a separate
 window, and immediately open the TLF file currently loaded in your umi
 file. If you did not change the original file, you will see the default
