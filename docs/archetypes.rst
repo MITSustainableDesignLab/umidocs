@@ -18,7 +18,10 @@ design energy model generation*\ ”, accessible in the following
 `link <http://web.mit.edu/sustainabledesignlab/publications/TemplateEditor_SimBuild2014.pdf>`__.
 
 .. figure:: ../_images/TLF0.jpg
+   :align: center
    :alt: TLF
+
+   The template library file structure
 
 
 Opening a TLF file and navigating contents
@@ -30,7 +33,10 @@ window, and immediately open the TLF file currently loaded in your umi
 file. If you did not change the original file, you will see the default
 library file opened.
 
-|Template Editor Main Window|\ *Template Editor Main Window*
+.. figure:: ../_images/Screenshot-2017-09-19-12.00.45.png
+   :align: center
+
+   Template Editor Main Window
 
 Additional file management commands are accessible from the “File” menu
 at the top left. You can open a different TLF by clicking “Open”, and
@@ -53,9 +59,7 @@ interpretation of the fields, you can visit the “Embodied Energy” and
 “Operational Energy” sections of this user guide.
 
 .. figure:: ../_images/Screenshot-2017-09-19-12.09.29.png
-   :alt:
+   :align: center
+   :alt: Component settings
 
-You can add a new component to the table by clicking the “Add Component”
-button
-
-.. |Template Editor Main Window| image:: ../_images/Screenshot-2017-09-19-12.00.45.png
+   You can add a new component to the table by clicking the “Add Component” button
