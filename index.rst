@@ -17,3 +17,11 @@ A first public version of Umi was released during a public symposium on Sustaina
    :caption: Template Editor
 
    Template Details <docs/template-info/_template-detail.rst>
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
