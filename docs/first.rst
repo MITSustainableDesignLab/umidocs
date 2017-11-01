@@ -22,13 +22,13 @@ creates it’s own file system (\*.umi) which is a package containing all
 relevant files and data needed for a project.
 
 To create a new project, simply click on the UMI button and select “open
-project” or “new project” and browser to the folder location of your
+project” or “new project” and browse to the folder location of your
 choice. Once a project has been opened.
 
 .. figure:: ../_images/Screenshot-2017-09-19-11.09.48.png
    :align: center
    :alt: The umi menu
-   
+
    The umi menu
 
 Important: Working units must be in
