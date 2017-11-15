@@ -11,6 +11,7 @@ This section provide details on the template files
    Materials/opaque.rst
    Materials/glazing.rst
    Constructions/constructions.rst
+   Schedules/schedules.rst
 
 
 .. sectionauthor::
