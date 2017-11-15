@@ -9,8 +9,9 @@ This section will provide details on the template files
    :glob:
    :hidden:
 
-   opaque
-   glazing
+   Materials/opaque
+   Materials/glazing
+   Constructions/constructions
 
 .. sectionauthor::
    Samuel Letellier-Duchesne <samuel.letellier-duchesne@polymtl.ca>
