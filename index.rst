@@ -10,6 +10,7 @@ A first public version of Umi was released during a public symposium on Sustaina
    :caption: User Documentation
 
    Getting Started <docs/first.md>
+   Create a new project <docs/newproject.md>
    docs/examples/_examples
    Building Templates <docs/archetypes.md>
 
