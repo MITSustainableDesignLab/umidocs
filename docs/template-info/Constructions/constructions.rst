@@ -1,10 +1,9 @@
 
--------------------------------
 Opaque Construction Description
 -------------------------------
 
 Opaque assembly
-===============
+```````````````
 
 .. todo::
    This section should explain how a Construction element is created from multiple material layers
@@ -14,7 +13,7 @@ Opaque assembly
 
 
 Window assembly
-===============
+```````````````
 
 .. todo::
    This section should explain how a Window element is created from multiple material layers
@@ -24,7 +23,7 @@ Window assembly
 
 
 Structure assembly
-==================
+``````````````````
 
 .. todo::
    This section should explain how a Structure element is created from multiple material layers

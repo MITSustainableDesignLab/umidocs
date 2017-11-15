@@ -17,6 +17,7 @@ A first public version of Umi was released during a public symposium on Sustaina
 
 .. toctree::
    :maxdepth: 3
+   :glob:
    :caption: Template Editor
 
    Template Details <docs/template-info/_template-detail.rst>

@@ -7,12 +7,11 @@ This section provide details on the template files
 
 .. toctree::
    :hidden:
+   :glob:
 
-   Materials/opaque.rst
-   Materials/glazing.rst
-   Constructions/constructions.rst
-   Schedules/schedules.rst
-
+   Constructions/_constructions.rst
+   Materials/_materials.rst
+   Schedules/_schedules.rst
 
 .. sectionauthor::
    Samuel Letellier-Duchesne <samuel.letellier-duchesne@polymtl.ca>
