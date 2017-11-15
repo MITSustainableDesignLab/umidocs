@@ -3,15 +3,15 @@
 Template documentation
 ----------------------
 
-This section will provide details on the template files
+This section provide details on the template files
 
 .. toctree::
-   :glob:
    :hidden:
 
-   Materials/opaque
-   Materials/glazing
-   Constructions/constructions
+   Materials/opaque.rst
+   Materials/glazing.rst
+   Constructions/constructions.rst
+
 
 .. sectionauthor::
    Samuel Letellier-Duchesne <samuel.letellier-duchesne@polymtl.ca>
