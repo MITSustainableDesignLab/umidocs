@@ -1,6 +1,8 @@
-======================
+
+----------------------
 Template documentation
-======================
+----------------------
+
 This section will provide details on the template files
 
 .. toctree::
@@ -13,13 +15,11 @@ This section will provide details on the template files
 .. sectionauthor::
    Samuel Letellier-Duchesne <samuel.letellier-duchesne@polymtl.ca>
 
----------
 Materials
----------
+=========
 
-^^^^^^
 Opaque
-^^^^^^
+------
 
 +--------------------------------------+-------------------+
 | Setting                              | Short Description |
@@ -58,9 +58,8 @@ Opaque
 +--------------------------------------+-------------------+
 
 
-^^^^^^^
 Glazing
-^^^^^^^
+-------
 
 +-----------------------------------------+-------------------+
 | Setting                                 | Short Description |
