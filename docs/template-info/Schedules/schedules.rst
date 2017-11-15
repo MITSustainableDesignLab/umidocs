@@ -7,8 +7,8 @@ Schedules
 .. index:: Schedule
 .. _schedule:
 
-Conductivity
-============
+Day \| Week \| Year
+===================
 
 .. todo::
    Section to be written
