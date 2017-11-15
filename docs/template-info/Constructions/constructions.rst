@@ -24,7 +24,7 @@ Window assembly
 
 
 Structure assembly
-===============
+==================
 
 .. todo::
    This section should explain how a Structure element is created from multiple material layers
