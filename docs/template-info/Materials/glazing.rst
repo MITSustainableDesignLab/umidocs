@@ -1,5 +1,5 @@
 ============================
-Galzing material description
+Glazing material description
 ============================
 
 .. index:: Conductivity
