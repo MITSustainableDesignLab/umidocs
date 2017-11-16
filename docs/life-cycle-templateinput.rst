@@ -14,3 +14,11 @@ All life cycle related inputs within Material components are located in the “E
    :align: center
 
 The first section (1) has two fields: “Embodied Carbon” and “Embodied Energy”. These refer to the impacts in production and manufacture of a kg of the material in question, measured in a Cradle-to-Gate manner. The units selected are the most typical ones in existing databases: MJ/kg for primary energy and kgCO2/kg for carbon. A common and validated reference for these values is the `Inventory of Carbon and Energy (ICE) <http://www.ghgprotocol.org/Third-Party-Databases/Bath-ICE>`__ developed by the university of Bath.
+
+The second section (2) has also two fields and is used to define replacement rates for materials during the lifespan of the building. “Substitution Step” is defined as the duration in years of a period of replacement (e.g. There will be interventions in this material type every 10 years). “Substitution Rate” is a ratio from 0 to 1 which defines the amount of the material replaced at the end of each period of replacement (e.g. Every 10 years this cladding will be completely replaced with ratio 1). Notice that you can define different replacement ratios for different consecutive periods, introducing them separated by commas. For example, if you introduce the series “0.1 , 0.1 , 1” after the first 10 years a 10% will be replaced, then after 20 years another 10%, then after 30 years a 100%, and finally the series would start again in year 40.
+
+.. math::
+
+  W^{3\beta}_{\delta_1 \rho_1 \sigma_2} \approx U^{3\beta}_{\delta_1 \rho_1}
+
+The third section (3) is used to define the transport impacts through three inputs. “Transport Distance” refers to the average distance in km from the manufacturing site to the building construction site. “Embodied Energy/Carbon” refer the impacts associated with the transport by km of distance and ton of material. These values are typically defined by vehicle (Truck, Train, Boat, etc.) and size and can be found in fuel efficiency publications.
