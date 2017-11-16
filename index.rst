@@ -12,12 +12,14 @@ A first public version of Umi was released during a public symposium on Sustaina
 
    Getting Started <docs/first.md>
    Create a new project <docs/newproject.md>
+   docs/site-config.rst
+   docs/saving-project.rst
+   docs/design-accessibility/design-access
    docs/examples/_examples
    Building Templates <docs/archetypes.md>
 
 .. toctree::
    :maxdepth: 3
-   :glob:
    :caption: Template Editor
 
    docs/template-info/_template-detail.rst
