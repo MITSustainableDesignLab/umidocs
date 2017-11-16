@@ -79,4 +79,4 @@ The building's window-to-wall ratio (WWR) represents the percentage of the build
 The building's floor-to-floor height is the height between each story's floor and the floor of the story above it (umi assumes uniform story height). If the building's height is not evenly divisible by the provided value, various simulation modules will perform differently; refer to the individual documentation for each simulation module to learn what will happen.
 
 .. note::
-   The advanced settings section includes a series of modeling parameters intended for advanced and experimental use of the energy module. Parameters are detailed in section :ref:`energy-module`. The default values for these fields are sufficient for general use.
+   The advanced settings section includes a series of modeling parameters intended for advanced and experimental use of the energy module. Parameters are detailed in section :ref:`energy-module-advanced`. The default values for these fields are sufficient for general use.

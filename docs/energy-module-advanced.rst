@@ -1,4 +1,4 @@
-.. _energy-module-overview:
+.. _energy-module-advanced:
 
 Advanced Settings
 =================
