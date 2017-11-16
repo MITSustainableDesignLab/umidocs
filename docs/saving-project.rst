@@ -13,4 +13,8 @@ To export a copy of the current umi bundle without making it the "working" copy,
 
 To export a project's building template library, use the "Export" button of the umi site settings tab:
 
+.. figure:: assets/site-config-dbe56713.png
+   :scale: 50 %
+   :align: center
+
 To export a project's geometry, use the standard Rhino SaveAs command (this is the command invoked by selecting File > Save As... from the Rhino menubar). **The project's working Rhino document will change, and standard geometry saves will now modify this new version.**
