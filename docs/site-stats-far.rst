@@ -11,5 +11,6 @@ The FAR calculation can be executed from with the umi panel's Simulate tab. It i
 
 FAR results are never saved within the umi bundle, and must be recalculated (if desired) every time a project is reloaded.
 
-.. youtube:: X26KjwTy4pc
-   :width: 100%
+.. raw:: html
+
+   <iframe width="100%" max-height="315" height="315" src="https://www.youtube-nocookie.com/embed/X26KjwTy4pc?rel=0" frameborder="0" allowfullscreen></iframe>
