@@ -1,6 +1,6 @@
 
-Schedules documentation
-=======================
+Schedules Tab
+=============
 
 This section provide details on the template files
 

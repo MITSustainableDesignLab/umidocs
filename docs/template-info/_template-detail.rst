@@ -1,7 +1,7 @@
 
-----------------------
-Template documentation
-----------------------
+-----------------------
+Templates documentation
+-----------------------
 
 This section provide details on the template files
 
