@@ -32,6 +32,13 @@ A first public version of Umi was released during a public symposium on Sustaina
 
 .. toctree::
    :maxdepth: 3
+   :caption: Embodied Energy (Lifecycle Impact)
+
+   Embodied Energy <docs/life-cycle.rst>
+
+
+.. toctree::
+   :maxdepth: 3
    :caption: Design Accessibility (Walk/Bike)
 
    docs/design-accessibility/design-access
