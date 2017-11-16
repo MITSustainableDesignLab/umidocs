@@ -25,7 +25,7 @@ To create a new project, simply click on the UMI button and select “open
 project” or “new project” and browse to the folder location of your
 choice. Once a project has been opened.
 
-.. figure:: ../_images/Screenshot-2017-09-19-11.09.48.png
+.. figure:: ./assets/first-kd95h2j87.png
    :align: center
    :alt: The umi menu
 
