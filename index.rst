@@ -20,6 +20,7 @@ A first public version of Umi was released during a public symposium on Sustaina
    :caption: Model Setup
 
    Building Templates <docs/model-setup-buildings.rst>
+   Context <docs/model-setup-context.rst>
 
 .. toctree::
    :maxdepth: 3
