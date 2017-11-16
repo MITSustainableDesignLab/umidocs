@@ -1,6 +1,6 @@
 
-Model Setup - Buildings
-=======================
+Model Setup - Template Editor
+=============================
 
 The Template Library Editor is an independent application provided with umi for the creation, management and edition of XML Template Library Files (TLF). TLF files are the open format used by umi to exchange and store information about materials, constructions, schedules, thermal loads, spaces and buildings. This section explains the basic characteristics of the TLF and the basic controls of the editor.
 
