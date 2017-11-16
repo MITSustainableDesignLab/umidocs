@@ -1,6 +1,6 @@
 
-Life Cycle
-==========
+Life Cycle Impact
+=================
 
 Umi 2.0 introduces the first version of its Life Cycle (LC) module, which currently allows for the calculation of basic embodied environmental impacts associated with construction materials, such as :ref:`Embodied Energy <embodied-energy>` and :ref:`Embodied Carbon <embodied-carbon>`. The purpose of this introductory section is to identify the available metrics and calculations in the current version.
 
