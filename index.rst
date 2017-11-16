@@ -1,3 +1,5 @@
+
+===================================
 Welcome to umi Online Documentation
 ===================================
 
@@ -46,8 +48,9 @@ A first public version of Umi was released during a public symposium on Sustaina
    docs/template-info/Building-Templates/_bldgtemplates.rst
 
 
+------------------
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
