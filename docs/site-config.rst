@@ -5,7 +5,7 @@ To configuring your project's parameters, click the "Project" button in
 the umi toolbar:
 
 .. figure:: assets/site-config-a4ef9b80.png
-   :scale: 50 %
+   :scale: 100 %
    :align: center
 
 The umi panel opens, with the "Project" tab active:
