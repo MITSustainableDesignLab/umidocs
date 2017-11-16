@@ -33,6 +33,12 @@ A first public version of Umi was released during a public symposium on Sustaina
 
 .. toctree::
    :maxdepth: 3
+   :caption: Operational Energy Module
+
+   Overview <docs/energy-module.rst>
+
+.. toctree::
+   :maxdepth: 3
    :caption: Embodied Energy (Lifecycle Impact)
 
    Embodied Energy <docs/life-cycle.rst>
