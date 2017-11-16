@@ -8,10 +8,10 @@ This section provide details on the Zone Information tab
    :hidden:
    :glob:
 
-   zones
-   loads
-   zone_constructions
-   conditioning
-   ventilation
-   dhw
-   windows
+   zones.rst
+   loads.rst
+   zone_constructions.rst
+   conditioning.rst
+   ventilation.rst
+   dhw.rst
+   windows.rst
