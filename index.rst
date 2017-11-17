@@ -42,8 +42,8 @@ A first public version of Umi was released during a public symposium on Sustaina
    :maxdepth: 3
    :caption: Embodied Energy Module
 
-   Embodied Energy <docs/life-cycle-introduction.rst>
-   Tempalte Input <docs/life-cycle-templateinput.rst>
+   Life Cycle Introduction <docs/life-cycle-introduction.rst>
+   Template Input <docs/life-cycle-templateinput.rst>
 
 
 .. toctree::
