@@ -35,10 +35,10 @@ Finally the “Environmental” section has equivalent fields to those in other 
 Life Cycle data in the Building Template
 ````````````````````````````````````````
 
-The building template component includes two types of inputs used by the life cycle calculations in umi, but in some cases also shared by other simulation modules. The first is the “Lifespan” parameter, defined as an integer number that represents the number of years a building is supposed to last, and the maximum number of year the module will produce results for. The second one is the “Partition Ratio” parameter, as an additional input exclusively used by the life cycle module, which refers to the number of lineal meters of partitions (Floor to ceiling) presenting in average in the building floor plans by m\ :sup:`2`.
+The building template component includes two types of inputs used by the life cycle calculations in umi, but in some cases also shared by other simulation modules. The first is the :ref:`lifespan` parameter, defined as an integer number that represents the number of years a building is supposed to last, and the maximum number of year the module will produce results for. The second one is the “Partition Ratio” parameter, as an additional input exclusively used by the life cycle module, which refers to the number of lineal meters of partitions (Floor to ceiling) presenting in average in the building floor plans by m\ :sup:`2`.
 
 .. figure:: ./assets/life-cycle-templateinput-kd74uj9d.png
    :scale: 100 %
    :align: center
 
-The area designated as 2 in the image includes a second set of inputs used to select the constructions to be assigned to all components of the building, which can be set be clicking in the grey boxes and choosing from a list.
+The other area of inputs is used to select the constructions to be assigned to all components of the building (Core, pertimeter and structure), which can be set be clicking in the grey boxes and choosing from the list of available components.
