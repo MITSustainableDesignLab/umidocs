@@ -51,6 +51,8 @@ A first public version of Umi was released during a public symposium on Sustaina
    :caption: Design Accessibility (Walk/Bike)
 
    docs/design-access-intro.rst
+   docs/design-access-setup-model.rst
+   docs/design-access-example.rst
 
 .. toctree::
    :maxdepth: 3

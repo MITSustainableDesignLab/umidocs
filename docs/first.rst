@@ -14,6 +14,8 @@ To download UMI,please follow this
 `link <http://urbanmodellinginterface.ning.com/page/download>`__ and
 fill out the form.
 
+.. _setup_model:
+
 Opening/Creating a project
 --------------------------
 
