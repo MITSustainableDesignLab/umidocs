@@ -44,6 +44,7 @@ A first public version of Umi was released during a public symposium on Sustaina
 
    Life Cycle Introduction <docs/life-cycle-introduction.rst>
    Template Input <docs/life-cycle-templateinput.rst>
+   docs/life-cycle-simulation-visualization.rst
 
 
 .. toctree::
