@@ -9,6 +9,10 @@ In order to perform an FAR calculation, two criteria must be satisfied. First, a
 
 The FAR calculation can be executed from with the umi panel's Simulate tab. It is located on the first simulation sub-panel. The "Recalculate" button will perform the calculation and display the result. The button simply executes the "UmiCalculateFAR" Rhino command, which can also be directly invoked.
 
+.. figure:: assets/site-stats-far-jd834j46f.png
+   :scale: 100 %
+   :align: center
+
 FAR results are never saved within the umi bundle, and must be recalculated (if desired) every time a project is reloaded.
 
 .. raw:: html
