@@ -1,3 +1,7 @@
+.. |br| raw:: html
+
+   <br />
+
 .. _energy-module-overview:
 
 Energy Module Overview
@@ -10,14 +14,14 @@ Energy Module Overview
       :align: center
       :name: figure_1
 
-      Small input geometry example
+      Input Geometry
 
    .. figure:: assets/energy-module-overview-slk3yf86.png
       :scale: 35 %
       :align: center
       :name: figure_2
 
-      Insolation simulation
+      Insolation Analysis Mesh |br| [high(red) low(blue)]
 
    .. figure:: assets/energy-module-overview-s83kd7s5.png
       :scale: 35 %
