@@ -46,12 +46,11 @@ A first public version of Umi was released during a public symposium on Sustaina
    Template Input <docs/life-cycle-templateinput.rst>
    docs/life-cycle-simulation-visualization.rst
 
-
 .. toctree::
    :maxdepth: 3
    :caption: Design Accessibility (Walk/Bike)
 
-   docs/design-accessibility/design-access
+   docs/design-access-intro.rst
 
 .. toctree::
    :maxdepth: 3
