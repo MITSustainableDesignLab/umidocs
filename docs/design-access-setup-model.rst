@@ -69,5 +69,9 @@ Typically a Walkscore simulation will include streets, massings connected to the
 Step 3: Running a Simulation
 ----------------------------
 
+After selecting the "Simulate" button, choose the “Mobility” tab. You can run both the Walkability simulation and the Bikeability Simulation by pressing "Run All." The next section explains how both algorithms work.
+
 Step 4: Results Visualization
 -----------------------------
+
+After a simulation runs, a new layer is created with simulation results. This will take the form of false colored buildings.
