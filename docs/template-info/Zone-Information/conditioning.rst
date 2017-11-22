@@ -2,53 +2,12 @@
 Conditioning
 ============
 
-+-------------------------------+-------------+
-| Setting                       | Description |
-+===============================+=============+
-| :ref:`cond_heating`           | Description |
-+-------------------------------+-------------+
-| :ref:`cond_h_setpoint`        | Description |
-+-------------------------------+-------------+
-| :ref:`cond_h_schedule`        | Description |
-+-------------------------------+-------------+
-| :ref:`cond_h_limit_type`      | Description |
-+-------------------------------+-------------+
-| :ref:`cond_h_max_cap`         | Description |
-+-------------------------------+-------------+
-| :ref:`cond_h_max_flow`        | Description |
-+-------------------------------+-------------+
-| :ref:`cond_h_cop`             | Description |
-+-------------------------------+-------------+
-| :ref:`cond_cooling`           | Description |
-+-------------------------------+-------------+
-| :ref:`cond_c_setpoint`        | Description |
-+-------------------------------+-------------+
-| :ref:`cond_c_schedule`        | Description |
-+-------------------------------+-------------+
-| :ref:`cond_c_limit_type`      | Description |
-+-------------------------------+-------------+
-| :ref:`cond_c_max_cap`         | Description |
-+-------------------------------+-------------+
-| :ref:`cond_c_max_flow`        | Description |
-+-------------------------------+-------------+
-| :ref:`cond_c_cop`             | Description |
-+-------------------------------+-------------+
-| :ref:`cond_mech_vent`         | Description |
-+-------------------------------+-------------+
-| :ref:`cond_mv_schedule`       | Description |
-+-------------------------------+-------------+
-| :ref:`cond_min_freshair_area` | Description |
-+-------------------------------+-------------+
-| :ref:`cond_min_freshair_pers` | Description |
-+-------------------------------+-------------+
-| :ref:`cond_econ_type`         | Description |
-+-------------------------------+-------------+
-| :ref:`cond_hr_type`           | Description |
-+-------------------------------+-------------+
-| :ref:`cond_hr_eff_latent`     | Description |
-+-------------------------------+-------------+
-| :ref:`cond_hr_eff_sensible`   | Description |
-+-------------------------------+-------------+
+.. csv-table::
+   :file: ../../tables/conditioning.csv
+   :header-rows: 1
+   :widths: 20,50,15,15
+   :name: conditioning
+
 
 .. index:: Heating
 .. _cond_heating:

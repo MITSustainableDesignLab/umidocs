@@ -2,30 +2,13 @@
 Zones
 -----
 
-+--------------------------------------+-------------+
-| Setting                              | Description |
-+======================================+=============+
-| Constructions                        | Description |
-+--------------------------------------+-------------+
-| Loads                                | Description |
-+--------------------------------------+-------------+
-| Conditioning                         | Description |
-+--------------------------------------+-------------+
-| Ventilation                          | Description |
-+--------------------------------------+-------------+
-| Domestic hot water                   | Description |
-+--------------------------------------+-------------+
-| Daylight mesh resolution             | Description |
-+--------------------------------------+-------------+
-| Daylight workplane height            | Description |
-+--------------------------------------+-------------+
-| Internal mass construction           | Description |
-+--------------------------------------+-------------+
-| Internal mass exposed per floor area | Description |
-+--------------------------------------+-------------+
+.. csv-table::
+   :file: ../../tables/zones.csv
+   :header-rows: 1
+   :widths: 20,50,15,15
 
 .. index:: Constructions
-.. _constructions:
+.. _zones_constructions:
 
 Constructions
 `````````````
@@ -34,7 +17,7 @@ Constructions
 
 
 .. index:: Loads
-.. _loads:
+.. _zones_loads:
 
 Loads
 `````
@@ -44,7 +27,7 @@ Loads
 
 
 .. index:: Conditioning
-.. _conditioning:
+.. _zones_conditioning:
 
 Conditioning
 ````````````
@@ -54,7 +37,7 @@ Conditioning
 
 
 .. index:: Ventilation
-.. _ventilation:
+.. _zones_ventilation:
 
 Ventilation
 ```````````
@@ -64,7 +47,7 @@ Ventilation
 
 
 .. index:: Domestic Hot Water
-.. _dhw:
+.. _zones_dhw:
 
 Domestic Hot Water
 ``````````````````
@@ -74,7 +57,7 @@ Domestic Hot Water
 
 
 .. index:: Dayligth Mesh Resolution
-.. _daylight-mesh-res:
+.. _zones_daylight-mesh-res:
 
 Dayligth Mesh Resolution
 ````````````````````````
@@ -84,7 +67,7 @@ Dayligth Mesh Resolution
 
 
 .. index:: Dayligth Workplane Height
-.. _daylight-work-height:
+.. _zones_daylight-work-height:
 
 Dayligth Workplane Height
 `````````````````````````
@@ -94,7 +77,7 @@ Dayligth Workplane Height
 
 
 .. index:: Internal Mass Construction
-.. _internal-mass-construction:
+.. _zones_internal-mass-construction:
 
 Internal Mass Construction
 ``````````````````````````
@@ -104,7 +87,7 @@ Internal Mass Construction
 
 
 .. index:: Internal Mass Exposed Floor Area
-.. _internal-mass-exposed-floor:
+.. _zones_internal-mass-exposed-floor:
 
 Internal Mass Exposed Floor Area
 ````````````````````````````````
