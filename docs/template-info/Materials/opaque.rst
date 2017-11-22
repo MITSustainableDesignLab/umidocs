@@ -1,12 +1,12 @@
-===========================
+
 Opaque material description
-===========================
+---------------------------
 
 .. index:: Conductivity
 .. _conductivity:
 
 Conductivity
-************
+````````````
 
 .. todo::
    Section to be written
@@ -16,7 +16,7 @@ Conductivity
 .. _cost:
 
 Cost
-****
+````
 
 .. todo::
    Section to be written
@@ -26,7 +26,7 @@ Cost
 .. _density:
 
 Density
-*******
+```````
 
 .. todo::
    Section to be written
@@ -36,7 +36,7 @@ Density
 .. _embodied-carbon:
 
 Embodied Carbon
-***************
+```````````````
 
 .. todo::
    Section to be written
@@ -46,7 +46,7 @@ Embodied Carbon
 .. _embodied-energy:
 
 Embodied Energy
-***************
+```````````````
 
 .. todo::
    Section to be written
@@ -56,7 +56,7 @@ Embodied Energy
 .. _substitution-rate-pattern:
 
 Substitution Rate Pattern
-*************************
+`````````````````````````
 
 .. todo::
    Section to be written
@@ -66,7 +66,7 @@ Substitution Rate Pattern
 .. _substitution-timestep:
 
 Substitution Timestep
-*********************
+`````````````````````
 
 .. todo::
    Section to be written
@@ -76,7 +76,7 @@ Substitution Timestep
 .. _transportation-carbon:
 
 Transportation Carbon
-*********************
+`````````````````````
 
 .. todo::
    Section to be written
@@ -86,7 +86,7 @@ Transportation Carbon
 .. _transportation-distance:
 
 Transportation Distance
-***********************
+```````````````````````
 
 .. todo::
    Section to be written
@@ -96,7 +96,7 @@ Transportation Distance
 .. _transportation-energy:
 
 Transportation Energy
-*********************
+`````````````````````
 
 .. todo::
    Section to be written
@@ -106,7 +106,7 @@ Transportation Energy
 .. _moisture-diffusion-resistance:
 
 Moisture Diffusion Resistance
-*****************************
+`````````````````````````````
 
 .. todo::
    Section to be written
@@ -116,7 +116,7 @@ Moisture Diffusion Resistance
 .. _roughness:
 
 Roughness
-*********
+`````````
 
 .. todo::
    Section to be written
@@ -126,7 +126,7 @@ Roughness
 .. _solar-absorptance:
 
 Solar Absorptance
-*****************
+`````````````````
 
 .. todo::
    Section to be written
@@ -136,7 +136,7 @@ Solar Absorptance
 .. _specific-heat:
 
 Specific Heat
-*************
+`````````````
 
 .. todo::
    Section to be written
@@ -146,7 +146,7 @@ Specific Heat
 .. _thermal-emittance:
 
 Thermal Emittance
-*****************
+`````````````````
 
 .. todo::
    Section to be written
@@ -156,7 +156,7 @@ Thermal Emittance
 .. _visible-absorptance:
 
 Visible Absorptance
-*******************
+```````````````````
 
 .. todo::
    Section to be written

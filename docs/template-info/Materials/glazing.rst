@@ -1,12 +1,12 @@
-============================
-Galzing material description
-============================
+
+Glazing material description
+----------------------------
 
 .. index:: Conductivity
 .. _g_conductivity:
 
 Conductivity
-************
+````````````
 
 .. todo::
    Section to be written
@@ -15,7 +15,7 @@ Conductivity
 .. _g_cost:
 
 Cost
-****
+````
 
 .. todo::
    Section to be written
@@ -25,7 +25,7 @@ Cost
 .. _g_density:
 
 Density
-*******
+```````
 
 .. todo::
    Section to be written
@@ -35,7 +35,7 @@ Density
 .. _g_embodied-carbon:
 
 Embodied Carbon
-***************
+```````````````
 
 .. todo::
    Section to be written
@@ -45,7 +45,7 @@ Embodied Carbon
 .. _g_embodied-energy:
 
 Embodied Energy
-***************
+```````````````
 
 .. todo::
    Section to be written
@@ -55,7 +55,7 @@ Embodied Energy
 .. _g_substitution-rate-pattern:
 
 Substitution Rate Pattern
-*************************
+`````````````````````````
 
 .. todo::
    Section to be written
@@ -65,7 +65,7 @@ Substitution Rate Pattern
 .. _g_substitution-timestep:
 
 Substitution Timestep
-*********************
+`````````````````````
 
 .. todo::
    Section to be written
@@ -75,7 +75,7 @@ Substitution Timestep
 .. _g_transportation-carbon:
 
 Transportation Carbon
-*********************
+`````````````````````
 
 .. todo::
    Section to be written
@@ -85,7 +85,7 @@ Transportation Carbon
 .. _g_transportation-distance:
 
 Transportation Distance
-***********************
+```````````````````````
 
 .. todo::
    Section to be written
@@ -95,7 +95,7 @@ Transportation Distance
 .. _g_transportation-energy:
 
 Transportation Energy
-*********************
+`````````````````````
 
 .. todo::
    Section to be written
@@ -105,7 +105,7 @@ Transportation Energy
 .. _g_dirt-factor:
 
 Dirt Factor
-***********
+```````````
 
 .. todo::
    Section to be written
@@ -115,7 +115,7 @@ Dirt Factor
 .. _g_back-side-ir-emissivity:
 
 Back-side IR Emissivity
-***********************
+```````````````````````
 
 .. todo::
    Section to be written
@@ -125,7 +125,7 @@ Back-side IR Emissivity
 .. _g_front-side-ir-emissivity:
 
 Front-side IR Emissivity
-************************
+````````````````````````
 
 .. todo::
    Section to be written
@@ -135,7 +135,7 @@ Front-side IR Emissivity
 .. _g_ir-transmittance:
 
 IR Transmittance
-****************
+````````````````
 
 .. todo::
    Section to be written
@@ -145,7 +145,7 @@ IR Transmittance
 .. _g_back-side-solar-reflectance:
 
 Back-side Solar Reflectance
-***************************
+```````````````````````````
 
 .. todo::
    Section to be written
@@ -155,7 +155,7 @@ Back-side Solar Reflectance
 .. _g_front-side-solar-reflectance:
 
 Front-side Solar Reflectance
-****************************
+````````````````````````````
 
 .. todo::
    Section to be written
@@ -165,7 +165,7 @@ Front-side Solar Reflectance
 .. _g_solar-transmittance:
 
 Solar Transmittance
-*******************
+```````````````````
 
 .. todo::
    Section to be written
@@ -175,7 +175,7 @@ Solar Transmittance
 .. _g_back-side-visible-reflectance:
 
 Back-side Visible Reflectance
-*****************************
+`````````````````````````````
 
 .. todo::
    Section to be written
@@ -185,7 +185,7 @@ Back-side Visible Reflectance
 .. _g_front-side-visible-reflectance:
 
 Front-side Visible Reflectance
-******************************
+``````````````````````````````
 
 .. todo::
    Section to be written
@@ -195,7 +195,7 @@ Front-side Visible Reflectance
 .. _g_visible-transmittance:
 
 Visible Transmittance
-*********************
+`````````````````````
 
 .. todo::
    Section to be written
