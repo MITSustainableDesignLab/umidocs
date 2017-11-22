@@ -2,14 +2,35 @@
 Zones
 -----
 
++--------------------------------------+-------------+
+| Setting                              | Description |
++======================================+=============+
+| Constructions                        | Description |
++--------------------------------------+-------------+
+| Loads                                | Description |
++--------------------------------------+-------------+
+| Conditioning                         | Description |
++--------------------------------------+-------------+
+| Ventilation                          | Description |
++--------------------------------------+-------------+
+| Domestic hot water                   | Description |
++--------------------------------------+-------------+
+| Daylight mesh resolution             | Description |
++--------------------------------------+-------------+
+| Daylight workplane height            | Description |
++--------------------------------------+-------------+
+| Internal mass construction           | Description |
++--------------------------------------+-------------+
+| Internal mass exposed per floor area | Description |
++--------------------------------------+-------------+
+
 .. index:: Constructions
 .. _constructions:
 
 Constructions
 `````````````
 
-.. todo::
-   Section to be written
+:ref:`zoneinfo_constructions`
 
 
 .. index:: Loads
