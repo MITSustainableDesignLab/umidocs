@@ -23,7 +23,6 @@ This section provide details on the Zone Information tab
    :file: ../../tables/conditioning.csv
    :header-rows: 1
    :widths: 20,50,15,15
-   :name: conditioning
 
 .. csv-table:: Ventilation tab parameters
    :file: ../../tables/ventilation.csv
