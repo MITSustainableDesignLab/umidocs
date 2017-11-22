@@ -192,6 +192,10 @@ epub_copyright = copyright
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+epub_cover = ('_static/cover.png', 'epub-cover.html')
+epub_theme_options = {'relbar1' : True, 'footer' : True}
+epub_tocdepth = 2
+epub_show_urls = 'no'
 
 
 
