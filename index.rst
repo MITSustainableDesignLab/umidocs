@@ -12,7 +12,7 @@ A first public version of Umi was released during a public symposium on Sustaina
    :caption: Getting Started
 
    Getting Started <docs/first.md>
-   docs/examples/_examples
+   docs/examples/_tutorials
    Create a new project <docs/newproject.md>
    docs/site-config.rst
    docs/saving-project.rst
