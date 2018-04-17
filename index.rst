@@ -65,6 +65,12 @@ A first public version of Umi was released during a public symposium on Sustaina
    docs/template-info/Zone-Information/_zoneinfo.rst
    docs/template-info/Building-Templates/_bldgtemplates.rst
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Plugins
+
+   docs/plugins/district-energy.rst
+
 
 ------------------
 Indices and tables
