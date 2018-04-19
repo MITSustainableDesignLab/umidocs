@@ -85,6 +85,24 @@ Input Parameters
 | Cooling coefficient of performance           | Average annual ratio of useful cooling delivered to natural gas consumed           | 0.90          |
 +----------------------------------------------+------------------------------------------------------------------------------------+---------------+
 
+Typical Values
+''''''''''''''
+
+Table :numref:`typicalAbs` summarizes typical chiller efficiency ranges for different chiller technologies.
+
+.. table:: Typical chiller efficiency ranges with different prime drivers
+   :name: typicalAbs
+
+   +----------------------------------------------------------------+--------------------+----------------+
+   | Chiller type                                                   | Typical efficiency | Capacity (KW)  |
+   +================================================================+====================+================+
+   | Steam driven centrifugal HW absorption chiller (single effect) | COP 0.55–0.70      | <200 to >11500 |
+   +----------------------------------------------------------------+--------------------+----------------+
+   | Steam absorption chiller (single effect)                       | COP 0.60–0.8       | <200 to >11500 |
+   +----------------------------------------------------------------+--------------------+----------------+
+   | Direct fired (double effect) absorption chiller                | COP 0.85–1.30      | <350 to >11500 |
+   +----------------------------------------------------------------+--------------------+----------------+
+
 Electric chillers
 `````````````````
 
@@ -119,6 +137,24 @@ Input Parameters
 +====================================+==========================================================================+===============+
 | Cooling coefficient of performance | Average annual ratio of useful cooling delivered to electricity consumed | 4.40          |
 +------------------------------------+--------------------------------------------------------------------------+---------------+
+
+Typical Values
+''''''''''''''
+
+Table :numref:`typicalEch` summarizes typical chiller efficiency ranges for different chiller technologies.
+
+.. table:: Typical chiller efficiency ranges with different prime drivers [#]_
+   :name: typicalEch
+
+   +---------------------------------------------------------------------+--------------------+-----------------+
+   | Chiller type                                                        | Typical efficiency | Capacity (KW)   |
+   +=====================================================================+====================+=================+
+   | Electric centrifugal (standard single compressor)                   | COP 4.7–6.75       | 1750 to > 5275  |
+   +---------------------------------------------------------------------+--------------------+-----------------+
+   | Electric centrifugal (standard dual compressor)                     | COP 4.7–6.75       | 5275 to >14000  |
+   +---------------------------------------------------------------------+--------------------+-----------------+
+   | Electric centrifugal (single compressor industrial – field erected) | COP 4.7–6.75       | 8800 to > 20000 |
+   +---------------------------------------------------------------------+--------------------+-----------------+
 
 Solar thermal collectors
 ````````````````````````
@@ -425,3 +461,8 @@ The module can also be assigned to track electricity instead of the thermal load
 +-----------------------------------------------+---------------------------------------------------------------------------------+---------------+
 | Waste heat recovery effectiveness (%)         | Average annual ratio of usable heat recovered from generator to fuel consumed   | 29            |
 +-----------------------------------------------+---------------------------------------------------------------------------------+---------------+
+
+References
+----------
+
+.. [#] S. Tredinnick and G. Phetteplace, 8 - District cooling, current status and future trends, In Woodhead Publishing Series in Energy, edited by Robin Wiltshire,, Woodhead Publishing, Oxford, 2016, Pages 167-188, Advanced District Heating and Cooling (DHC) Systems, ISBN 9781782423744, `<https://doi.org/10.1016/B978-1-78242-374-4.00008-2>`_. (`<https://www.sciencedirect.com/science/article/pii/B9781782423744000082>`_)
