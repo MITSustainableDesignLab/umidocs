@@ -59,8 +59,8 @@ A first public version of Umi was released during a public symposium on Sustaina
    :caption: Template Editor
 
    docs/template-info/_template-detail.rst
-   docs/template-info/Constructions/_constructions.rst
    docs/template-info/Materials/_materials.rst
+   docs/template-info/Constructions/_constructions.rst
    docs/template-info/Schedules/_schedules.rst
    docs/template-info/Zone-Information/_zoneinfo.rst
    docs/template-info/Building-Templates/_bldgtemplates.rst

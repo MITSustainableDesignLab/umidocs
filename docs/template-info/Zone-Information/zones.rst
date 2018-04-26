@@ -1,3 +1,4 @@
+.. _tabZones:
 
 Zones
 -----
@@ -5,79 +6,71 @@ Zones
 .. csv-table::
    :file: ../../tables/zones.csv
    :header-rows: 1
-   :widths: 20,50,15,15
+
 
 .. index:: Constructions
-.. _zones_constructions:
+.. _thisConstructions:
 
 Constructions
 `````````````
 
-:ref:`zoneinfo_constructions`
+Assigns one of the :ref:`tabZoneInfoConstructions` objects to the selected zone.
 
 
 .. index:: Loads
-.. _zones_loads:
+.. _thisLoads:
 
 Loads
 `````
 
-.. todo::
-   Section to be written
+Assigns one of the :ref:`tabZoneInfoLoads` objects to the selected zone.
 
 
 .. index:: Conditioning
-.. _zones_conditioning:
+.. _thisConditioning:
 
 Conditioning
 ````````````
 
-.. todo::
-   Section to be written
+Assigns one of the :ref:`tabZoneInfoConditioning` created in the Conditioning Tab.
 
 
 .. index:: Ventilation
-.. _zones_ventilation:
+.. _thisVentilation:
 
 Ventilation
 ```````````
 
-.. todo::
-   Section to be written
+Assigns one of the :ref:`tabZoneInfoVentilation` objects created in the Ventilation Tab.
 
 
 .. index:: Domestic Hot Water
-.. _zones_dhw:
+.. _thisDhw:
 
 Domestic Hot Water
 ``````````````````
 
-.. todo::
-   Section to be written
+Assigns one of the :ref:`tabZoneInfoDhw` objects created in the DHW Tab.
 
 
 .. index:: Dayligth Mesh Resolution
-.. _zones_daylight-mesh-res:
+.. _thisDaylightMeshRes:
 
 Dayligth Mesh Resolution
 ````````````````````````
 
-.. todo::
-   Section to be written
-
+Defines the :index:`Dayligth Mesh Resolution`. To use a finer mesh resolution when running any a daylighting simulation, adjust the “Geometric Density” option. Values are in meters. A fine mesh resolution will show a spacial distribution of daylighting better than a coarse one, but will take longer to calculate.
 
 .. index:: Dayligth Workplane Height
-.. _zones_daylight-work-height:
+.. _thisDaylightWorkHeight:
 
 Dayligth Workplane Height
 `````````````````````````
 
-.. todo::
-   Section to be written
-
+The distance of sampling nodes off of analysis surfaces. A value of 0.8 m will put the sensor nodes roughly at desk height.
 
 .. index:: Internal Mass Construction
-.. _zones_internal-mass-construction:
+.. _thisInternalMassConstruction:
 
 Internal Mass Construction
 ``````````````````````````
@@ -87,7 +80,7 @@ Internal Mass Construction
 
 
 .. index:: Internal Mass Exposed Floor Area
-.. _zones_internal-mass-exposed-floor:
+.. _thisInternalMassExposedFloor:
 
 Internal Mass Exposed Floor Area
 ````````````````````````````````

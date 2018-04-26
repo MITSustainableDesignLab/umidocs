@@ -1,4 +1,6 @@
 
+.. _tabZoneInfoDhw:
+
 Domestic Hot Water
 ==================
 
