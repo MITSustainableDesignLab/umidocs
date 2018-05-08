@@ -1,4 +1,7 @@
 
+.. index:: Loads
+.. _tabZoneInfoLoads:
+
 Loads
 =====
 
@@ -8,7 +11,7 @@ Loads
    :widths: 20,50,15,15
 
 .. index:: People
-.. _loads_people:
+.. _loadsPeople:
 
 People
 ``````

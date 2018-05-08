@@ -1,4 +1,5 @@
-.. _zoneinfo_constructions:
+
+.. _tabZoneInfoConstructions:
 
 Constructions
 =============
@@ -44,11 +45,15 @@ Slab
 Facade is adiabatic
 ```````````````````
 
+When enabled, the facade will see no heat transfer to the surroundings.
+
 .. index:: Facade
 .. _zinfo_ground_adiabatic:
 
 Ground is adiabatic
 ```````````````````
+
+When enabled, the ground plane will see no heat transfer to the surroundings.
 
 .. index:: Partition is adiabatic
 .. _zinfo_partition_adiabatic:
@@ -56,14 +61,20 @@ Ground is adiabatic
 Partition is adiabatic
 ``````````````````````
 
+When enabled, the partition will see no heat transfer to the surroundings.
+
 .. index:: Roof is adiabatic
 .. _zinfo_roof_adiabatic:
 
 Roof is adiabatic
 `````````````````
 
+When enabled, the roof will see no heat transfer to the surroundings.
+
 .. index:: Slab is adiabatic
 .. _zinfo_slab_adiabatic:
 
 Slab is adiabatic
 `````````````````
+
+When enabled, the slab will see no heat transfer to the surroundings.
