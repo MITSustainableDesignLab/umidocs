@@ -25,7 +25,10 @@ This checkbox field defines whether or not this component is available to operat
 Heating setpoint
 ````````````````
 
-The temperature below which zone heating is turned on.
+The temperature below which zone heating is turned on. Umi controls the temperature in the zone using a ThermostatSetpoint:DualSetpoint object. This would be for heating and cooling thermostat where both a heating and cooling setpoint can be scheduled for any given time period. The setpoint can be scheduled and varied throughout the simulation for both heating and cooling.
+
+.. Note::
+   In this version of umi, the heating setpoint can only be scheduled as a constant.
 
 .. index:: Heating schedule
 .. _cond_h_schedule:
@@ -33,9 +36,12 @@ The temperature below which zone heating is turned on.
 Heating schedule
 ````````````````
 
-Schedule for when the heating system is available. Winter only enables the heating system when the outdoor temperature is less than 5 °C.
+The name of a schedule (ref: Schedule) that denotes whether heating is available. A schedule value greater than 0 (usually 1 is used) indicates that heating and humidification are available. A value less than or equal to 0 (usually 0 is used) denotes that heating and humidification are not available. If blank, heating and humidification are always available.
 
-.. todo:: to confirm
+.. Note::
+
+   Schedule for when the heating system is available. Winter only enables the heating system when the outdoor temperature is less than 5 °C.
+
 
 .. index:: Heating limit type
 .. _cond_h_limit_type:
@@ -75,11 +81,20 @@ Efficiency of heating system. This value is used in deriving total heating energ
 Cooling
 ```````
 
+This checkbox field defines whether or not this component is available to operate. If this field is unchecked, the :ref:`cond_c_schedule` field will be forced to the generic schedule name *Off*.
+
+
 .. index:: Cooling setpoint
 .. _cond_c_setpoint:
 
 Cooling setpoint
 ````````````````
+
+The temperature above which zone heating is turned on. Umi controls the temperature in the zone using a ThermostatSetpoint:DualSetpoint object. This would be for heating and cooling thermostat where both a heating and cooling setpoint can be scheduled for any given time period.
+
+.. Note::
+   In this version of umi, the heating setpoint can only be scheduled as a constant.
+
 
 .. index:: Cooling schedule
 .. _cond_c_schedule:
@@ -87,7 +102,11 @@ Cooling setpoint
 Cooling schedule
 ````````````````
 
-Schedule for when the cooling system is available. Summer only enables the cooling system when the outdoor temperature is greater than 8 °C below the cooling setpoint.
+The name of a schedule (ref: Schedule) that denotes whether cooling is available. A schedule value greater than 0 (usually 1 is used) indicates that cooling and dehumidification are available. A value less than or equal to 0 (usually 0 is used) denotes that cooling and dehumidification is not available. If blank, cooling and dehumidification are always available.
+
+.. Note::
+
+   Schedule for when the cooling system is available. Summer only enables the cooling system when the outdoor temperature is greater than 8 °C below the cooling setpoint.
 
 .. todo:: to confirm
 
@@ -104,6 +123,8 @@ The input must be either **LimitFlowRate**, **LimitCapacity**, **LimitFlowRateAn
 
 Max cooling capacity
 ````````````````````
+
+The maximum allowed total (sensible plus latent) cooling capacity in Watts per square meter if Cooling Limit is set to LimitCapacity or LimitFlowRateAndCapacity. If :ref:`cond_c_limit_type` is set to **NoLimit** or **LimitFlowRate**, this field is ignored.
 
 .. index:: Max cool flow
 .. _cond_c_max_flow:
@@ -127,11 +148,15 @@ Performance factor of cooling system. This value is used in deriving the total c
 Mechanical ventilation
 ``````````````````````
 
+Mechanical Ventilation affects building energy consumption by forcing Fresh Air into the zones, air that needs to be treated. If **on**, an outdoor air quantity for use by the model will be calculated.
+
 .. index:: Mechanical ventilation schedule
 .. _cond_mv_schedule:
 
 Mechanical ventilation schedule
 ```````````````````````````````
+
+This field is the reference to the schedule that defines how outdoor air requirements change over time. The schedule values are multiplied by the outdoor air flow rate defined by the next two fields. The schedule values must be between 0 and 1, inclusive. For example, if users specify the same schedule as the OccupancySchedule, this means that the current occupancy level will be used when computing the minimum outdoor air flow rate based on the next two fields.
 
 .. index:: Min fresh air per area
 .. _cond_min_freshair_area:
@@ -151,7 +176,7 @@ The design outdoor air volume flow rate per square meter of floor area (units ar
 Min fresh air per person
 ````````````````````````
 
-Outdoor fresh air supply relative to current occupancy.
+The design outdoor air volume flow rate per person for this zone in cubic meters per second per person. The default is 0.00944 (20 cfm per person). An outdoor air flow rate is calculated based on the total number of people for all People statements assigned to the zone. Occupancy schedule values are not applied during sizing calculations and are applied during the remainder of the simulation. This input is used if Outdoor Air Method is one of Outdoor Air Flow per Person, Sum, or Maximum.
 
 .. index:: Economizer type
 .. _cond_econ_type:

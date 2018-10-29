@@ -29,7 +29,7 @@ Infiltration rate
 Natural ventilation
 ```````````````````
 
-For this model, the ventilation air flow rate is a function of wind speed and thermal stack effect, along with the area of the opening being modeled. This object can be used alone or in combination with :ref:`vent_schduled`. This model is intended for simplified ventilation calculations as opposed to the more detailed ventilation investigations that can be performed with the AirflowNetwork model. Using the “Wind and Stack with Open Area” model, the natural ventilation flow rate can be controlled by a multiplier fraction schedule applied to the user-defined :ref:`windows_operable_area` and through the specification of minimum, maximum and delta temperatures. The temperatures can be either single constant values for the entire simulation or schedules which can vary over time.
+Natural ventilation is assumed to be air movement/exchange as a result of openings in the building façade and will not consume any fan energy. For this model, the ventilation air flow rate is a function of wind speed and thermal stack effect, along with the area of the opening being modeled. This object can be used alone or in combination with :ref:`vent_schduled`. This model is intended for simplified ventilation calculations as opposed to the more detailed ventilation investigations that can be performed with Energy+'s AirflowNetwork model. Using the “Wind and Stack with Open Area” model, the natural ventilation flow rate can be controlled by a multiplier fraction schedule applied to the user-defined :ref:`windows_operable_area` and through the specification of minimum, maximum and delta temperatures. The temperatures are taken as single constant values for the entire simulation.
 
 .. Note::
 
@@ -68,6 +68,8 @@ Defines the dehumidifying relative humidity setpoint, expressed as a percentage 
 
 Natural ventilation schedule
 ````````````````````````````
+
+This field is the name of the schedule (:ref:`schedule`) which ultimately modifies the Opening Area value (see previous field). In its current implementation, any value greater than 0 will consider, value above The schedule values must be any positive number between 0 and 1 as a fraction. 
 
 .. index:: Natural ventilation zone temperature setpoint
 .. _vent_nat_zone_temp_setpoint:
