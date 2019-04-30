@@ -5,7 +5,7 @@ Umi \| First steps
 Requirements
 ------------
 
-Rhinoceros3D version 6-64 bit (Windows only)
+UMI is a plugin for Rhinoceros3D version 6. It only runs with Rhino 6 for Windows 64 bit.
 
 Download & Install
 ------------------
