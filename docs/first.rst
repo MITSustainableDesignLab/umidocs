@@ -5,7 +5,7 @@ Umi \| First steps
 Requirements
 ------------
 
-Rhinoceros3D version 5-64 bit (Windows only)
+Rhinoceros3D version 6-64 bit (Windows only)
 
 Download & Install
 ------------------
