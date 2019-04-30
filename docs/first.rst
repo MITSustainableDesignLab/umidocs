@@ -10,8 +10,8 @@ Rhinoceros3D version 5-64 bit (Windows only)
 Download & Install
 ------------------
 
-To download UMI,please follow this
-`link <http://urbanmodellinginterface.ning.com/page/download>`__ and
+To download UMI, please follow this
+`link <http://eepurl.com/gps4wv>`__ and
 fill out the form.
 
 .. _setup_model:
