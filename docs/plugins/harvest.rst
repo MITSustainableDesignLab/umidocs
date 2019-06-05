@@ -350,11 +350,11 @@ Key performance metrics
 References
 ----------
 
-.. [#] Benis, K., Reinhart, C., Ferrão, P., 2017. Development of a simulation-based decision support workflow for the implementation of Building-Integrated Agriculture (BIA) in urban contexts. J. Clean. Prod. 147, 589–602, `<https://doi.org/10.1016/j.jclepro.2017.01.130>`_.
-.. [#] Benis, K., Gashgari, R., Alsaati, A., Reinhart, C., 2018. Urban Foodprints ( UF ) – Establishing baseline scenarios for the sustainability assessment of high-yield urban agriculture. Int. J. Des. Nat. Ecodynamics 13, 349–360, `<https://doi.org/10.2495/DNE-V13-N4-349-360>`_. 
-.. [#] Cockshull, K.E., Graves, C.J., Cave, C.R.J., 1992. The influence of shading on yield of glasshouse tomatoes. J. Hortic. Sci. 67, 11–24, `<https://doi.org/10.1080/00221589.1992.11516215>`_.
-.. [#] Gough, C.M., 2011. Terrestrial Primary Production: Fuel for Life. Nat. Educ. Knowl. 3, 28, retrieved from `<https://www.nature.com/scitable/knowledge/library/terrestrial-primary-production-fuel-for-life-17567411>`_. 
-.. [#] Jame, Y.W., Cutforth, H.W., 1996. Crop growth models for decision support systems. Can. J. Plant Sci. 76, 9–19, `<https://doi.org/10.4141/cjps96-003>`_. 
-.. [#] Kozai, T., Niu, G., Takagaki, M., 2016. Plant Factory: An Indoor Vertical Farming System for Efficient Quality Food Production. Elsevier. `<https://doi.org/10.1016/C2014-0-01039-8>`_.
-.. [#] Vanthoor, B.H.E., Gázquez, J.C., Magán, J.J., Ruijs, M.N.A., Baeza, E., Stanghellini, C., van Henten, E.J., de Visser, P.H.B., 2012. A methodology for model-based greenhouse design: Part 4, economic evaluation of different greenhouse designs: A Spanish case. Biosyst. Eng. 111, 336–349. `<https://doi.org/10.1016/j.biosystemseng.2011.12.008>`_.
-.. [#] Welbaum, G.E., 2015. Vegetable Production and Practices.
+#. Benis, K., Reinhart, C., Ferrão, P., 2017. Development of a simulation-based decision support workflow for the implementation of Building-Integrated Agriculture (BIA) in urban contexts. J. Clean. Prod. 147, 589–602, `<https://doi.org/10.1016/j.jclepro.2017.01.130>`_.
+#. Benis, K., Gashgari, R., Alsaati, A., Reinhart, C., 2018. Urban Foodprints ( UF ) – Establishing baseline scenarios for the sustainability assessment of high-yield urban agriculture. Int. J. Des. Nat. Ecodynamics 13, 349–360, `<https://doi.org/10.2495/DNE-V13-N4-349-360>`_.
+#. Cockshull, K.E., Graves, C.J., Cave, C.R.J., 1992. The influence of shading on yield of glasshouse tomatoes. J. Hortic. Sci. 67, 11–24, `<https://doi.org/10.1080/00221589.1992.11516215>`_.
+#. Gough, C.M., 2011. Terrestrial Primary Production: Fuel for Life. Nat. Educ. Knowl. 3, 28, retrieved from `<https://www.nature.com/scitable/knowledge/library/terrestrial-primary-production-fuel-for-life-17567411>`_.
+#. Jame, Y.W., Cutforth, H.W., 1996. Crop growth models for decision support systems. Can. J. Plant Sci. 76, 9–19, `<https://doi.org/10.4141/cjps96-003>`_.
+#. Kozai, T., Niu, G., Takagaki, M., 2016. Plant Factory: An Indoor Vertical Farming System for Efficient Quality Food Production. Elsevier. `<https://doi.org/10.1016/C2014-0-01039-8>`_.
+#. Vanthoor, B.H.E., Gázquez, J.C., Magán, J.J., Ruijs, M.N.A., Baeza, E., Stanghellini, C., van Henten, E.J., de Visser, P.H.B., 2012. A methodology for model-based greenhouse design: Part 4, economic evaluation of different greenhouse designs: A Spanish case. Biosyst. Eng. 111, 336–349. `<https://doi.org/10.1016/j.biosystemseng.2011.12.008>`_.
+#. Welbaum, G.E., 2015. Vegetable Production and Practices.
