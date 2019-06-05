@@ -16,7 +16,7 @@ Background
 Controlled-Environment Agriculture
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
-Controlled-Environment Agriculture (CEA) is an umbrella term for a large set of cultivation systems where the environment is controlled in order to extend crop growth period. Whereas the scope of the designation is broad enough to include very low-tech systems such as cloches set on field-grown crops, this first version of HARVEST only considers indoor conditioned farms – also called `Plant Factories <https://www.sciencedirect.com/book/9780128017753/plant-factory>`_ – using soilless cultivation techniques and artificial lighting. These indoor farms include container farms, an emerging trend that consists of growing crops in retrofitted shipping containers equipped with hydroponic systems. Controllable environment variables in CEA include CO2, humidity, light, nutrients, pests, temperature, ventilation and water. 
+Controlled-Environment Agriculture (CEA) is an umbrella term for a large set of cultivation systems where the environment is controlled in order to extend crop growth period. Whereas the scope of the designation is broad enough to include very low-tech systems such as cloches set on field-grown crops, this first version of HARVEST only considers indoor conditioned farms – also called `Plant Factories <https://www.sciencedirect.com/book/9780128017753/plant-factory>`_ – using soilless cultivation techniques and artificial lighting. These indoor farms include container farms, an emerging trend that consists of growing crops in retrofitted shipping containers equipped with hydroponic systems. Controllable environment variables in CEA include CO2, humidity, light, nutrients, pests, temperature, ventilation and water.
 
 HARVEST estimates food yields of indoor farms and their associated operational building energy use, as well as water use and carbon emissions. It also provide insights on the economic performance of the farms through metrics such as operational costs and jobs created locally. Additionally, it compares simulation outputs to existing urban supply chains and provides a carbon balance as well as a site premium. The following sections describe the simulation inputs, the structure of the tool and its underlying models,  and the simulation outputs.
 
@@ -24,12 +24,12 @@ HARVEST estimates food yields of indoor farms and their associated operational b
    :align: center
    :name: figure_harvest_results
 
-Fig. 1: Key performance metrics provided by HARVEST    
+Fig. 1: Key performance metrics provided by HARVEST
 
 Modelling crop growth
 ,,,,,,,,,,,,,,,,,,,,,
 
-Photosynthesis is fundamental to plant growth and has been shown to be affected by environmental factors such as light and temperature (Kozai et al., 2016). Crop growth models consist of mathematical equations that represent these reactions occurring between plants and their environment, predicting the growth rate and final state of total biomass and harvestable yield (Jame and Cutforth, 1996). HARVEST food production calculations use the gathered data on optimal growth conditions of crops and apply these models as described in the sections below. 
+Photosynthesis is fundamental to plant growth and has been shown to be affected by environmental factors such as light and temperature (Kozai et al., 2016). Crop growth models consist of mathematical equations that represent these reactions occurring between plants and their environment, predicting the growth rate and final state of total biomass and harvestable yield (Jame and Cutforth, 1996). HARVEST food production calculations use the gathered data on optimal growth conditions of crops and apply these models as described in the sections below.
 
 Thermo-classification of vegetables was one of the earliest attempts to group plants and remains widely used today (Welbaum, 2015). Based on their light and temperature requirements for optimal growth, HARVEST clusters crops into four groups – red, orange, light green, and dark green crops (see Fig. 2). Red and orange are warm season crops. Red crops prefer temperatures above 21 oC, whereas orange crops are adapted to temperatures ranging from 18.3 to 29.4 oC. Light green and dark green are cool-season crops. Light green crops are adapted to temperatures ranging from 12.8 to 23.9 oC, whereas dark green crops prefer average monthly temperatures of 15.6 to 18.3 oC.
 
@@ -37,7 +37,7 @@ Thermo-classification of vegetables was one of the earliest attempts to group pl
    :align: center
    :name: figure_crop_classification
 
-Fig. 2: Classification of crops based on light and temperature requirements   
+Fig. 2: Classification of crops based on light and temperature requirements
 
 
 Simulation inputs
@@ -46,7 +46,7 @@ Simulation inputs
 CEA Farm templates
 ,,,,,,,,,,,,,,,,,,
 
-Simulating indoor crop growth requires the definition of specific templates for the “farm” building type, which are based on the optimal indoor conditions required by the plants. A default crop template library is embedded in HARVEST. In order to build these templates, a database of optimal growth conditions for a set of crops was developed through a literature review of scientific articles describing the settings and outcomes of controlled-environment cultivation experiments conducted in growth chambers equipped with hydroponic systems. The UMI Template Editor can be used to edit and/or add templates. 
+Simulating indoor crop growth requires the definition of specific templates for the “farm” building type, which are based on the optimal indoor conditions required by the plants. A default crop template library is embedded in HARVEST. In order to build these templates, a database of optimal growth conditions for a set of crops was developed through a literature review of scientific articles describing the settings and outcomes of controlled-environment cultivation experiments conducted in growth chambers equipped with hydroponic systems. The UMI Template Editor can be used to edit and/or add templates.
 
 Zone information
 ;;;;;;;;;;;;;;;;
@@ -65,14 +65,14 @@ Occupancy, equipment and lighting loads are defined according to farms’ operat
 | Ventilation              | From crop requirements                                                    |
 +--------------------------+--------------------+------------------------------------------------------+
 | Domestic hot water       | From crop requirements                                                    |
-+--------------------------+---------------------------------------------------------------------------+   
++--------------------------+---------------------------------------------------------------------------+
 | Windows                  | All WWR automatically set to 0% when selecting the CEA Farm Simulator     |
 +--------------------------+--------------------+------------------------------------------------------+
 
 Schedules
 ;;;;;;;;;
 
-Depending on the distribution of labor that is assumed for the farms, daily occupancy can be allocated in different ways. As for lighting, testing different schedules can have great impacts on simulation results. In fact, under a given optimal temperature range, plant growth is further affected by light intensity and it has been established that under a controlled environment, the response of crop growth to increase in PPFD is virtually linear (e.g., Cockshull et al., 1992). This linear response of plant growth over target daily Photosynthetically Active Radiation PAR24 – also called Daily Light Integral (DLI) – and the reciprocity between the effects of PPFD and photoperiod at the same DLI can be used in lighting design when choosing the fixtures’ PPFD and deciding photoperiod needed to achieve target DLI (Kozai et al., 2016). For instance, the target DLI of 11 mol/m2/day that is required for strawberry can either be achieved by 255 μmol/m2/s through a photoperiod of 12 hours or by 170 μmol/m2/s through a photoperiod of 18 hours. The reduction of PPFD reduces the number of lighting fixtures and thereby capital costs, while reducing and changing photoperiod distribution can take advantage of the off-peak hours of utility charges and contribute to a better energy demand management. 
+Depending on the distribution of labor that is assumed for the farms, daily occupancy can be allocated in different ways. As for lighting, testing different schedules can have great impacts on simulation results. In fact, under a given optimal temperature range, plant growth is further affected by light intensity and it has been established that under a controlled environment, the response of crop growth to increase in PPFD is virtually linear (e.g., Cockshull et al., 1992). This linear response of plant growth over target daily Photosynthetically Active Radiation PAR24 – also called Daily Light Integral (DLI) – and the reciprocity between the effects of PPFD and photoperiod at the same DLI can be used in lighting design when choosing the fixtures’ PPFD and deciding photoperiod needed to achieve target DLI (Kozai et al., 2016). For instance, the target DLI of 11 mol/m2/day that is required for strawberry can either be achieved by 255 μmol/m2/s through a photoperiod of 12 hours or by 170 μmol/m2/s through a photoperiod of 18 hours. The reduction of PPFD reduces the number of lighting fixtures and thereby capital costs, while reducing and changing photoperiod distribution can take advantage of the off-peak hours of utility charges and contribute to a better energy demand management.
 
 +--------------------------+---------------------------------------------------------------------------+
 | Schedules                | Settings                                                                  |
@@ -84,7 +84,7 @@ Depending on the distribution of labor that is assumed for the farms, daily occu
 | Lighting                 | From crop optimal photoperiod                                             |
 +--------------------------+--------------------+------------------------------------------------------+
 | Heating                  | From crop optimal temperature range                                       |
-+--------------------------+---------------------------------------------------------------------------+   
++--------------------------+---------------------------------------------------------------------------+
 | Cooling                  | From crop optimal temperature range                                       |
 +--------------------------+--------------------+------------------------------------------------------+
 | Domestic hot water       | Farm hot water use                                                        |
@@ -94,7 +94,7 @@ Depending on the distribution of labor that is assumed for the farms, daily occu
 Urban Food Profiles (Urban foodprints)
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
-A fundamental preliminary step in the sustainability assessment of urban food production consists of collecting and integrating data on the existing supply chain for the crops to be assessed. The `Urban Foodprints method <https://www.witpress.com/elibrary/dne-volumes/13/4/2346>`_ consists of getting snapshots of the existing food system for a given urban area, using metrics related to food demand, resource use intensity of production, and food miles, to estimate the overall environmental impacts caused by the supply of a given produce to the city (Benis et al., 2018). In addition to this environmental sustainability component, HARVEST integrates a cost analysis component. A site-specific input file is therefore needed to run simulations: the Urban Food Profile (UFP), which contains crop-specific data related to the existing supply chain for the assessed crops. Specifically, the UFP file is a JSON file containing the list of simulated vegetables for which the following data inputs must be provided: 
+A fundamental preliminary step in the sustainability assessment of urban food production consists of collecting and integrating data on the existing supply chain for the crops to be assessed. The `Urban Foodprints method <https://www.witpress.com/elibrary/dne-volumes/13/4/2346>`_ consists of getting snapshots of the existing food system for a given urban area, using metrics related to food demand, resource use intensity of production, and food miles, to estimate the overall environmental impacts caused by the supply of a given produce to the city (Benis et al., 2018). In addition to this environmental sustainability component, HARVEST integrates a cost analysis component. A site-specific input file is therefore needed to run simulations: the Urban Food Profile (UFP), which contains crop-specific data related to the existing supply chain for the assessed crops. Specifically, the UFP file is a JSON file containing the list of simulated vegetables for which the following data inputs must be provided:
 
 +--------------------------+-----------+---------------+---------------------------------------------------------------------------------+
 | Input name               | Type      | Unit          | Description                                                                     |
@@ -152,14 +152,14 @@ Marketable yield
 HARVEST provides the yearly Marketable Yield Y_M (kg/m2/year), expressed as follows:
 
 .. math::
-   :label: 
-   
-   Y_{M} = Y_{G} × n_{T} × c_{A} × HI × (1-L) 
+   :label:
+
+   Y_{M} = Y_{G} × n_{T} × c_{A} × HI × (1-L)
 
 | where:
 |
-| :math:`Y_{G}` is the yearly Gross Yield (kg/m2/year); 
-| :math:`n_{T}` is the number of growing trays that are vertically stacked in the farm (see Fig. 3); 
+| :math:`Y_{G}` is the yearly Gross Yield (kg/m2/year);
+| :math:`n_{T}` is the number of growing trays that are vertically stacked in the farm (see Fig. 3);
 | :math:`c_{A}` is the coefficient of occupancy of the growing area in the farms (see Fig. 4);
 | :math:`HI` is the Harvest Index;
 | :math:`L` are crop losses.
@@ -168,59 +168,59 @@ HARVEST provides the yearly Marketable Yield Y_M (kg/m2/year), expressed as foll
 Gross yields have been defined as the total amount of CO2 fixed by the plants per unit time through photosynthesis into organic matter (Gough, 2011), and modeled as the product of canopy light interception and Light Use Efficiency (LUE):
 
 .. math::
-   :label: 
-   
-   Y_{G} = PAR_{365} × LUE 
+   :label:
+
+   Y_{G} = PAR_{365} × LUE
 
 | where:
 |
-| :math:`PAR_{365}` is the Photosynthetically Active Radiation available per year (mol/m2/year); 
+| :math:`PAR_{365}` is the Photosynthetically Active Radiation available per year (mol/m2/year);
 | :math:`LUE` is the Light Use Efficiency of the crop (kg/mol/m2).
 |
 
-| where: 
+| where:
 |
-| PAR_{365} is the Photosynthetically Active Radiation available per year (mol/m2/year); 
+| PAR_{365} is the Photosynthetically Active Radiation available per year (mol/m2/year);
 | LUE is the Light Use Efficiency of the crop (kg/mol/m2).
 |
 
 Photosynthetically Active Radiation (PAR) – the amount of light available for photosynthesis – derives from the Photosynthetic Photon Flux Density (PPFD) and the optimal photoperiod found in the literature for each crop:
 
 .. math::
-   :label: 
-   
-    PAR_{365} = (PPFD × Ph × 3600) / 10^6 
+   :label:
+
+    PAR_{365} = (PPFD × Ph × 3600) / 10^6
 
 | where:
 |
-| :math:`PPFD` is the Photosynthetic Photon Flux Density (µmol/m2/s); 
+| :math:`PPFD` is the Photosynthetic Photon Flux Density (µmol/m2/s);
 | :math:`Ph` is the Light Use Efficiency of the crop (kg/mol/m2).
-|   
- 
+|
+
 In the templates, both the PPFD and the photoperiod can be altered by the user by changing the illuminance target for the former, and the lighting schedules for the latter.
 
 In fully artificially-lit farms, crops are stacked vertically in order to maximize yields within the volume of the enclosure (see Fig. 3). The number of growing trays nT is calculated by HARVEST, based on the floor-to-floor height that was set by the user for the farm and on the spatial needs that were reported in the literature for each crop, as follows:
 
 .. math::
-   :label: 
-   
+   :label:
+
    n_{T}= FFH / (( H_{shoot} + D_{root} ) × i
 
 | where:
 |
-| :math:`FFH` is the Floor-to-Floor Height (m); 
-| :math:`H_{shoot}` is the height of the shoot (m); 
-| :math:`D_{root}` is the depth of the root (m); 
-| :math:`i` is the interval, a coefficient that was applied in order to take into account the extra space that is necessary so that plants do not reach the lighting fixtures above them. It was set to 1.5. 
-|     
-   
+| :math:`FFH` is the Floor-to-Floor Height (m);
+| :math:`H_{shoot}` is the height of the shoot (m);
+| :math:`D_{root}` is the depth of the root (m);
+| :math:`i` is the interval, a coefficient that was applied in order to take into account the extra space that is necessary so that plants do not reach the lighting fixtures above them. It was set to 1.5.
+|
+
 .. figure:: ../assets/vertical_stacking.png
    :align: center
    :name: figure_vertical_stacking
 
 Fig. 3: Vertical stacking of crops in plant factories
 
-The cA coefficient represents the ratio of the area occupied by the plants to the total floor area of the farm. Architectural drawings of existing indoor farms were reviewed. In plant factories, the culture room occupies 60% of total floor area, the remaining area being used for circulation, sanitary installations, technical rooms and administrative office space (see Fig. 4). In the culture room, the growing area represents around 70% of the floor area. 
+The cA coefficient represents the ratio of the area occupied by the plants to the total floor area of the farm. Architectural drawings of existing indoor farms were reviewed. In plant factories, the culture room occupies 60% of total floor area, the remaining area being used for circulation, sanitary installations, technical rooms and administrative office space (see Fig. 4). In the culture room, the growing area represents around 70% of the floor area.
 
 .. figure:: ../assets/floor_plan.png
    :align: center
@@ -239,17 +239,17 @@ Water Use
 The yearly water use per unit floor area WA (m3/m2/year) is estimated as follows:
 
 .. math::
-   :label: 
-   
+   :label:
+
    W_{A}= (Y_{G}) / WUE × n_{T} × c_{A} × 0.001
-    
+
 | where:
 |
-| :math:`Y_{G}` is the yearly Gross Yield (kg/m2/year);  
+| :math:`Y_{G}` is the yearly Gross Yield (kg/m2/year);
 | :math:`WUE` is the Water Use Efficiency of the crop (kg/L);
-| :math:`n_{T}` is the number of growing trays that are vertically stacked in the farm;  
+| :math:`n_{T}` is the number of growing trays that are vertically stacked in the farm;
 | :math:`c_{A}` is the coefficient of occupancy of the growing area in the farms.
-|     
+|
 
 
 Energy Use
@@ -270,33 +270,33 @@ Carbon Balance
 Based on the UFP inputs and on the operational resource use of the simulated urban farms (water and energy), HARVEST displays the carbon balance, i.e., the difference between the existing supply chain and the local food production scenario, showing potential Greenhouse Gas (GHG) emissions mitigation:
 
 .. math::
-   :label: 
-   
+   :label:
+
    GHG_{BALANCE} = GHG_{BASE} -  GHG_{CEA}
 
 Crop-embedded GHG emissions (kgCO2eq) under the existing supply chain (GHGBASE) include emissions related to resource use during the cultivation process (water and energy) as well as emissions related to food miles and food waste from farm to retail:
 
 .. math::
-   :label: 
-   
-   GHG_{BASE}= GHG_{BASE}^E+ GHG_{BASE}^W + GHG_{BASE}^{FM} + GHG_{BASE}^{FW} 
+   :label:
+
+   GHG_{BASE}= GHG_{BASE}^E+ GHG_{BASE}^W + GHG_{BASE}^{FM} + GHG_{BASE}^{FW}
 
 | where:
 |
 | :math:`GHG_{BASE}^E`, :math:`GHG_{BASE}^W`, :math:`GHG_{BASE}^{FM}` and :math:`GHG_{BASE}^{FW}` are the respective baseline embedded emissions of energy, water, food miles and food waste.
-|     
+|
 
 Embedded GHG emissions of on-site food production in controlled-environment urban farms GHGCEA (kgCO2eq) include the GHG emissions related to the operation of the farms – namely of water and energy use:
 
 .. math::
-   :label: 
-   
+   :label:
+
    GHG_{CEA} = GHG_{CEA}^E + GHG_{CEA}^W
 
 | where:
 |
 | :math:`GHG_{CEA}^{E}` and :math:`GHG_{CEA}^{W}` are the respective baseline embedded emissions of energy use and water use (kgCO2eq).
-|   
+|
 
 
 Jobs
@@ -307,7 +307,7 @@ The jobs calculation uses the occupancy of the farms that was set in the templat
 Site premium
 ,,,,,,,,,,,,
 
-Based on the inputs of the UFP and on the outputs of the CEA Farm Simulator, HARVEST not only displays costs of on-site food production, but also the difference between the baseline (i.e., the consumers’ food expenditure under the existing supply chain) and the simulated local food production scenario, showing the site premium for each crop type. 
+Based on the inputs of the UFP and on the outputs of the CEA Farm Simulator, HARVEST not only displays costs of on-site food production, but also the difference between the baseline (i.e., the consumers’ food expenditure under the existing supply chain) and the simulated local food production scenario, showing the site premium for each crop type.
 
 
 Simulation outputs
@@ -316,7 +316,7 @@ Simulation outputs
 Site metrics
 ,,,,,,,,,,,,
 
-Site metrics provide an overview on (1) local food consumption; (2) food expenditure; and (3) farming area needed for 100% self-sufficiency. 
+Site metrics provide an overview on (1) local food consumption; (2) food expenditure; and (3) farming area needed for 100% self-sufficiency.
 
 +---------------------------------------------------------+---------------+----------------------------------------------------------------------------------------------------+
 | Metric                                                  | Unit          | Description                                                                                        |
