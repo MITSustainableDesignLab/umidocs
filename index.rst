@@ -70,6 +70,7 @@ A first public version of Umi was released during a public symposium on Sustaina
    :caption: Plugins
 
    docs/plugins/district-energy.rst
+   Harvest <docs/plugins/harvest.rst>
 
 
 ------------------
