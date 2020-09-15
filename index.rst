@@ -13,7 +13,6 @@ A first public version of Umi was released during a public symposium on Sustaina
 
    Getting Started <docs/first.md>
    docs/examples/_tutorials
-   Create a new project <docs/newproject.md>
    docs/site-config.rst
    docs/saving-project.rst
 
@@ -71,6 +70,7 @@ A first public version of Umi was released during a public symposium on Sustaina
 
    docs/plugins/district-energy.rst
    Harvest <docs/plugins/harvest.rst>
+   GIS Importer <docs/plugins/gis-importer.rst>
 
 
 ------------------

@@ -1,4 +1,5 @@
 
+.. _Schedules Tab:
 
 Schedules Tab
 =============

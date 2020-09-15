@@ -15,7 +15,6 @@ A district level thermal energy plant comprises several equipment that serve the
 The model is defined as a cascade of different components (energy modules) that try to meet the demand (either hot water, chilled water or electricity) for all 8760 hours of the year. A module will supply energy up to its given capacity. If the demand is higher than a module's capacity, the remaining demand will be met by the subsequent modules in the chain. The chain of energy supplies is defined here and illustrated in :numref:`figure_modele_overview`.
 
 .. figure:: ../assets/district-plugin-si3jf840.svg
-   :scale: 35 %
    :align: center
    :name: figure_modele_overview
 
