@@ -69,7 +69,8 @@ ZoneMixing is intended to allow simplified treatment of air exchange between zon
 Zone mixing availability schedule
 `````````````````````````````````
 
-This field is the name of the schedule (:ref:`Schedules Tab`) that modifies the maximum design volume flow rate parameter (see next field). This fraction between 0.0 and 1.0 modifies the design level parameter.
+This field is the name of the schedule (:ref:`Schedules Tab`) that modifies the maximum design volume flow rate
+parameter (see next field). This fraction between 0.0 and 1.0 modifies the design level parameter.
 
 .. index:: Zone mixing delta temperature
 .. _windows_zone_mixing_schedule_delta_t:
