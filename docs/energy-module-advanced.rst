@@ -18,11 +18,11 @@ Variable                 Default Value            Explanation
 Core depth (m)            3                      The depth of the shoebox core zone.
 Room width (m)            3                      The width of the shoebox.
 Perimeter offset (m)      3                      The depth of the shoebox perimeter zone.
-envr                      0.1                    The external sensor spacing for the solar radiation analysis that determines shoebox location.
-fdist                     0.01                   The internal sensor spacing for the solar radiation analysis that determines shoebox location.
+envr                      0.1                    The external sensor spacing for the annual solar radiation incidence analysis that determines shoebox location.
+fdist                     0.01                   The internal sensor spacing for the annual solar radiation incidence analysis that determines shoebox location.
 ======================= ======================   ======================
 
-Larger values of envr and fdist reduce accuracy but speed up simulations, especially with large numbers of buildings. Radiation sensor generation and anlaysis tends to be the biggest bottleneck in running large models. 
+Larger values of envr and fdist reduce accuracy but speed up simulations, especially with large numbers of buildings. Radiation sensor generation and anlaysis tends to be the biggest bottleneck in running large models. However, modifying fdist and envr is not reccomended.
 
 End uses
 ________
