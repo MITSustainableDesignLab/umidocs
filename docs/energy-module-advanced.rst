@@ -7,6 +7,23 @@ The Shoebox model is based on the EnergyPlus "ZoneHVAC:IdealLoadsAirSystem" comp
 perimeter zone. Mechanical Ventilation and Natural Ventilation are modelled using the
 "DesignSpecification:OutdoorAir" and the "ZoneVentilation:WindandStackOpenArea" components.
 
+
+Advanced settings under the Building tab
+_______
+These settings adjust the parameters for the shoebox model used for the energy simulations. 
+
+======================= ======================   ======================
+Variable                 Default Value            Explanation
+======================= ======================   =====================
+Core depth (m)            3                      The depth of the shoebox core zone.
+Room width (m)            3                      The width of the shoebox.
+Perimeter offset (m)      3                      The depth of the shoebox perimeter zone.
+envr                      0.1                    The external sensor spacing for the solar radiation analysis that determines shoebox location.
+fdist                     0.01                   The internal sensor spacing for the solar radiation analysis that determines shoebox location.
+======================= ======================   ======================
+
+Larger values of envr and fdist reduce accuracy but speed up simulations, especially with large numbers of buildings. Radiation sensor generation and anlaysis tends to be the biggest bottleneck in running large models. 
+
 End uses
 ________
 
@@ -23,6 +40,7 @@ Zone Ideal Loads Supply Air Total Cooling Energy       SDL/Cooling
 Water Use Equipment Heating Energy                     SDL/Domestic Hot Water
 Zone Windows Total Transmitted Solar Radiation Energy  SDL/Window Radiation
 =====================================================  ======================
+
 
 Deep Dive
 ________
