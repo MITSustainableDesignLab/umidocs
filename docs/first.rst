@@ -1,39 +1,16 @@
 
-Umi \| First steps
-==================
-
 Requirements
-------------
+============
 
-UMI is a plugin for Rhinoceros3D version 6. It only runs with Rhino 6 for Windows 64 bit.
+UMI is a plugin for Rhinoceros 3D NURBS modeler. To use UMI, you need the following software and hardware:
 
-Download & Install
-------------------
+Hardware
+--------
 
-To download UMI, please follow this
-`link <http://eepurl.com/gps4wv>`__ and
-fill out the form.
+A computer running the **Windows operating system**. UMI does not currently run on the Mac operating system. 
 
-.. _setup_model:
 
-Opening/Creating a project
---------------------------
+Software
+--------
+The latest version of Rhino 7. (UMI does not work with  Rhino 6.)  A free, fully functional 90 day trial is available from the McNeel web site.
 
-When working with UMI projects, it is important to use the umi functions
-and **NOT** the Rhino commands for “Opening” and “Saving” a project. Umi
-creates it’s own file system (\*.umi) which is a package containing all
-relevant files and data needed for a project.
-
-To create a new project, simply click on the UMI button and select “open
-project” or “new project” and browse to the folder location of your
-choice. Once a project has been opened.
-
-.. figure:: ./assets/first-kd95h2j87.png
-   :align: center
-   :alt: The umi menu
-
-   The umi menu
-
-Important: Working units must be in
-Meters. To change them, in Rhino, go to > File — Properties — Units —
-Model Units : Change to “meters”

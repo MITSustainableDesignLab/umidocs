@@ -3,23 +3,32 @@
 Welcome to umi Online Documentation
 ===================================
 
-Umi is a Rhino-based design environment for architects and urban planners interested in modeling the environmental performance of neighborhoods and cities with respect to operational and embodied energy use, walkability and daylighting potential. Since 2012, Umi has been  developed by the `Sustainable Design Lab <http://web.mit.edu/SustainableDesignLab/>`__ at the Massachusetts Institute of Technology with support from a National Science Foundation `EFRI_SEED project <http://www.youtube.com/watch?v=YNmOpOtxOSY>`__, the `MIT Energy Initiative <http://mitei.mit.edu/news/urban-sustainability-designing-resource-efficient-appealing-cities>`__, the `Kuwait-MIT Center <http://cnre.mit.edu/research/sustainability-kuwaits-built-environment>`__, the `Center for Complex Engineering Systems (CCES) <http://www.cces-kacst-mit.org/project/city-schema>`__ at KACST and MIT, Transsolar Climate Engineering and United Technologies Corporation. Further tool developed is now also being conducted at the `Environmental Systems Lab <https://es.aap.cornell.edu/>`__ at Cornell University.
+The Urban Modeling Interface (umi) is a multi-year effort, led by the  `Sustainable Design Lab`_  at MIT, to develop an urban modeling platform to evaluate the environmental performance of neighborhoods and cities with respect to operational and embodied energy use, neighborhood walkability, access to daylighting, 
+urban food production and district-level energy supply analysis. umi is a design environment for Rhinoceros 3d (Rhino) and includes an application programming interface (API) for researchers and consultants interested in adding additional performance modules and metrics. 
+Focus users are urban designers and planners, municipalities, utilities, sustainability consultants and other urban stakeholders. umi files can be generated form scratch in Rhino or via the `UBEM.io`_ web app. UBEM.io also supports the results comparison of multiple umi files.
 
-A first public version of Umi was released during a public symposium on Sustainable Urban Design on May 6th 2013 at the Massachusetts Institute of Technology. Version 2.0, which also includes an embodied energy module, was released on November 7th 2014.
+
+.. _Sustainable Design Lab:  https://web.mit.edu/sustainabledesignlab/index.html
+.. _UBEM.io: http://www.ubem.io/
+
+
 
 .. toctree::
    :maxdepth: 3
    :caption: Getting Started
 
-   Getting Started <docs/first.md>
-   docs/examples/_tutorials
-   docs/site-config.rst
-   docs/saving-project.rst
-
+   Requirements <docs/first.md>
+   Installation <docs/installation.rst>
+   Learn umi <docs/examples/_tutorials.rst>
+   
+   
 .. toctree::
    :maxdepth: 3
    :caption: Model Setup
 
+   docs/starting_an_umi_project.rst
+   docs/site-config.rst
+   docs/saving-project.rst
    Buildings <docs/model-setup-buildings.rst>
    Template Editor <docs/model-setup-template.rst>
    Context <docs/model-setup-context.rst>

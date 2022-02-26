@@ -9,7 +9,8 @@ perimeter zone. Mechanical Ventilation and Natural Ventilation are modelled usin
 
 
 Advanced settings under the Building tab
-_______
+________________________________________
+
 These settings adjust the parameters for the shoebox model used for the energy simulations. 
 
 =======================  =====================  =================================================================================================================
@@ -43,5 +44,6 @@ Zone Windows Total Transmitted Solar Radiation Energy  SDL/Window Radiation
 
 
 Accessing the Shoebox IDFs
-________
+__________________________
+
 If you want to access the idfs created for each shoebox, go to c/umi/temp/energy after simulation. Under two filename subdirectories, open the eplus folder. From there you will find "group#" folders, with as many groups as there are templates. Each group has a number of sample folders under it. The samples are based on the number of shoeboxes required by the radiation mapping. You can navigate to an individual sample and open up the .idf file from there and simulate in the standard EP-launch. If you want to process the resulting data, you can use the command “UmiExportShoeboxWeights” in the Rhino command line. This command creates a .json file that maps each shoebox file back to the original model. The weights can be used to extrapolate the individual idf results out to the full model results if repeated across all samples and groups. 

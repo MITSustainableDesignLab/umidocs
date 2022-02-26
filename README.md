@@ -8,7 +8,7 @@ This repository is the development website for the *umi* user guide. If you wish
 
 ## Main project location
 
-The main project site is http://www.urbanmodeling.net.
+The main project site is https://web.mit.edu/sustainabledesignlab/projects/umi/index.html.
 
 ## Development and contribution to the documentation
 You may report any issues by using the [Issues](https://github.com/MITSustainableDesignLab/umidocs/issues) tab located at the top of this page.
