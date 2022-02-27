@@ -1,7 +1,5 @@
-.. _site-stats-far:
-
-Site Statistics - FAR
-=====================
+Site Analysis Module
+====================
 
 Umi can calculate a site's Floor Area Ratio (FAR), which is simply the ratio of the total gross floor area of each building on the site to the area the site itself occupies.
 

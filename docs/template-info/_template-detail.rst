@@ -1,7 +1,6 @@
 
------------------------
-Templates documentation
------------------------
+Template Library Editor
+=======================
 
 This section provide details on the template files
 

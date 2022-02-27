@@ -34,7 +34,8 @@ To customize your building templates, click the "Edit" button:
    :scale: 50 %
    :align: center
 
-The template editor will open. Make any changes you desire, and remember
+The `template library editor <template-info/_template-detail.html>`__ will 
+open. Make any changes you desire, and remember
 to save! Notice how the template library text is not blue after changes
 are made. Whole template libraries can also imported into and exported
 from umi projects. Watch out - existing changes will be overwritten when
@@ -44,3 +45,5 @@ The third setting allows you to provide a custom "amenities profile" for
 mobility calculations. The default profile is usually sufficient, but to
 learn about providing a custom profile, see
 :ref:`design_access`.
+
+

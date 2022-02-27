@@ -29,16 +29,17 @@ Focus users are urban designers and planners, municipalities, utilities, sustain
    docs/starting_an_umi_project.rst
    docs/site-config.rst
    docs/saving-project.rst
-   Buildings <docs/model-setup-buildings.rst>
+   Model Setup - Buildings <docs/model-setup-buildings.rst>
    Template Editor <docs/model-setup-template.rst>
    Context <docs/model-setup-context.rst>
 
 .. toctree::
    :maxdepth: 3
-   :caption: Site Statistics
+   :caption: Site Analysis Module 
 
    Floor-Area Ratio <docs/site-stats-far.rst>
 
+   
 .. toctree::
    :maxdepth: 3
    :caption: Operational Energy Module
@@ -64,6 +65,20 @@ Focus users are urban designers and planners, municipalities, utilities, sustain
 
 .. toctree::
    :maxdepth: 3
+   :caption: District Energy Module   
+
+   docs/plugins/district-energy.rst
+   
+.. toctree::
+   :maxdepth: 3
+   :caption: Urban Agriculture Module   
+
+   docs/plugins/harvest.rst
+   
+ 
+   
+.. toctree::
+   :maxdepth: 3
    :caption: Template Editor
 
    docs/template-info/_template-detail.rst
@@ -73,13 +88,7 @@ Focus users are urban designers and planners, municipalities, utilities, sustain
    docs/template-info/Zone-Information/_zoneinfo.rst
    docs/template-info/Building-Templates/_bldgtemplates.rst
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Plugins
 
-   docs/plugins/district-energy.rst
-   Harvest <docs/plugins/harvest.rst>
-   GIS Importer <docs/plugins/gis-importer.rst>
 
 
 ------------------

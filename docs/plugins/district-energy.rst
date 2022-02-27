@@ -1,7 +1,7 @@
 .. _district-energy:
 
-District Energy Plugin
-======================
+Modeling Low Carbon Energy Systems
+==================================
 
 .. admonition:: Authorship
 

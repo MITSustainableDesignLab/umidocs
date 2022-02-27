@@ -1,7 +1,7 @@
 Learn UMI
 =========
 
-To get started learning UMI, it is recommended that you follow the video tutorials on the `Sustainable Design YouTube channel <https://www.youtube.com/playlist?list=PLNaYqZje2xMPJnemVtNmwOv4WRWPiimej>`__. You can download the UMi files used in the tutorials below.
+To get started learning UMI, it is recommended that you follow the video tutorials on the `Sustainable Design YouTube channel <https://www.youtube.com/playlist?list=PLNaYqZje2xMPJnemVtNmwOv4WRWPiimej>`__. You can download the UMI project files used in the tutorials below.
 
 
 .. only:: html
