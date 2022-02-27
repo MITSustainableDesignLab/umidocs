@@ -55,14 +55,7 @@ Focus users are urban designers and planners, municipalities, utilities, sustain
    Template Input <docs/life-cycle-templateinput.rst>
    docs/life-cycle-simulation-visualization.rst
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Design Accessibility (Walk/Bike)
-
-   docs/design-access-intro.rst
-   docs/design-access-setup-model.rst
-   docs/design-access-example.rst
-
+   
 .. toctree::
    :maxdepth: 3
    :caption: District Energy Module   
@@ -75,6 +68,14 @@ Focus users are urban designers and planners, municipalities, utilities, sustain
 
    docs/plugins/harvest.rst
    
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Design Accessibility (Walk/Bike)
+
+   docs/design-access-intro.rst
+   docs/design-access-setup-model.rst
+   docs/design-access-example.rst
  
    
 .. toctree::
