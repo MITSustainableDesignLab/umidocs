@@ -20,6 +20,7 @@ Focus users are urban designers and planners, municipalities, utilities, sustain
    Requirements <docs/first.md>
    Installation <docs/installation.rst>
    Learn umi <docs/examples/_tutorials.rst>
+   What is an UMI bundle? <docs/umi_bundle.rst>
    
    
 .. toctree::
